@@ -154,11 +154,31 @@ Track behavioral security indicators
 Support SOC and GRC risk-monitoring activities
 Apply data-driven security interventions
 
+## Dashboard
+
+### Employee Critical-Risk Investigation
+
+The Streamlit dashboard provides SOC/GRC analysts with an employee-level investigation view combining behavioral phishing indicators, calculated risk scores, risk classification, and recommended security actions.
+
+![Employee Critical Risk Investigation](docs/employee-critical-risk-investigation.png)
+
 ## Project Status
 
 **Core platform implementation complete.**
 
 The repository contains the end-to-end data pipeline, behavioral risk engine, machine-learning components, automated alerting, adaptive training logic, database integration, dashboard implementation, and automated testing framework.
+
+### Automated Testing
+
+The platform includes an automated test suite covering the behavioral risk engine, adaptive training engine, security alert generation, and end-to-end component integration.
+
+**Test Result: 34/34 tests passed**
+
+Run the test suite with:
+
+```bash
+python -m pytest tests -v
+```
 
 ## Author
 
