@@ -1,0 +1,19 @@
+check_name,status,details
+Employee count equals 500,PASS,Actual employee count: 500
+Scenario count equals 10,PASS,Actual scenario count: 10
+Behavioral event count is correct,PASS,"Expected: 5000, Actual: 5000"
+Employee IDs are unique,PASS,Duplicate employee IDs: 0
+Scenario IDs are unique,PASS,Duplicate scenario IDs: 0
+Event IDs are unique,PASS,Duplicate event IDs: 0
+No missing values,PASS,"Employees: 0, Scenarios: 0, Events: 0"
+Every employee has all phishing scenarios,PASS,Employees with incorrect event count: 0
+All employees represented in event dataset,PASS,"Employee dataset IDs: 500, Event dataset IDs: 500"
+All scenarios represented in event dataset,PASS,"Scenario dataset IDs: 10, Event dataset IDs: 10"
+Binary behavioral fields contain only 0 or 1,PASS,No invalid binary values
+Failure probabilities are between 0 and 1,PASS,Invalid probabilities: 0
+Training scores are between 0 and 100,PASS,Invalid training scores: 0
+Credential submissions correspond to failures,PASS,Invalid credential events: 0
+Link clicks require opened phishing messages,PASS,Invalid link events: 0
+Attachment opens require opened messages,PASS,Invalid attachment events: 0
+Reporting response times are logically consistent,PASS,Invalid reporting-time events: 0
+Failed simulations trigger remediation training,PASS,Invalid remediation events: 0

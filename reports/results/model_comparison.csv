@@ -1,0 +1,4 @@
+model,accuracy_mean,balanced_accuracy_mean,precision_mean,recall_mean,f1_mean,roc_auc_mean,pr_auc_mean,accuracy_std,roc_auc_std
+Random Forest,0.562,0.559,0.7148,0.5694,0.6327,0.5694,0.7249,0.0172,0.0221
+Logistic Regression,0.518,0.5036,0.6653,0.5483,0.5989,0.5302,0.7061,0.0519,0.0387
+Gradient Boosting,0.586,0.4724,0.6491,0.8194,0.724,0.5224,0.7316,0.0265,0.0327

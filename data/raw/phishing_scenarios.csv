@@ -1,0 +1,11 @@
+scenario_id,company,scenario_name,attack_type,delivery_method,difficulty,target_department,social_engineering_trigger,mitre_technique,mitre_name,base_failure_probability
+PHISH001,NovaCore Financial Services,Microsoft 365 Password Expiration,Credential Phishing,Email Link,Easy,All,Urgency,T1566.002,Spearphishing Link,0.35
+PHISH002,NovaCore Financial Services,HR Benefits Update,Malicious Attachment Simulation,Email Attachment,Medium,All,Authority,T1566.001,Spearphishing Attachment,0.25
+PHISH003,NovaCore Financial Services,CEO Urgent Payment Request,Business Email Compromise,Email,Hard,Finance,Authority and Urgency,T1566,Phishing,0.2
+PHISH004,NovaCore Financial Services,Package Delivery Notification,Link Phishing,Email Link,Easy,All,Curiosity,T1566.002,Spearphishing Link,0.4
+PHISH005,NovaCore Financial Services,Shared Cloud Document,Cloud Credential Phishing,Cloud Service Link,Medium,All,Familiarity,T1566.003,Spearphishing via Service,0.3
+PHISH006,NovaCore Financial Services,Fake MFA Verification Request,Identity Phishing,Email Link,Hard,Information Technology,Urgency and Fear,T1566.002,Spearphishing Link,0.18
+PHISH007,NovaCore Financial Services,Payroll Account Verification,Credential Phishing,Email Link,Medium,Human Resources,Financial Concern,T1566.002,Spearphishing Link,0.28
+PHISH008,NovaCore Financial Services,QR Code Security Verification,QR Phishing,QR Code,Hard,All,Security Concern,T1566.002,Spearphishing Link,0.22
+PHISH009,NovaCore Financial Services,Resume Attachment,Malicious Attachment Simulation,Email Attachment,Medium,Human Resources,Job Responsibility,T1566.001,Spearphishing Attachment,0.32
+PHISH010,NovaCore Financial Services,IT Helpdesk Account Verification,Credential Phishing,Email Link,Hard,All,Authority and Fear,T1566.002,Spearphishing Link,0.2

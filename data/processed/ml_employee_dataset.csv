@@ -1,0 +1,501 @@
+employee_id,department,role,privilege_level,security_training_completed,previous_training_score,historical_simulations,historical_failures,historical_clicks,historical_attachments_opened,historical_credentials_submitted,historical_reports,historical_targeted_attacks,average_historical_failure_probability,historical_failure_rate,historical_click_rate,historical_attachment_rate,historical_credential_rate,historical_reporting_rate,future_failures,future_phishing_failure,privilege_risk_value,training_risk
+EMP0001,Human Resources,HR Specialist,High,1,85,7,3,2,0,2,6,1,0.2667,0.4286,0.2857,0.0,0.2857,0.8571,1,1,3,0.15
+EMP0002,Sales,Sales Representative,Low,1,96,7,1,0,0,0,3,0,0.1556,0.1429,0.0,0.0,0.0,0.4286,1,1,1,0.04
+EMP0003,Human Resources,HR Manager,Medium,1,96,7,0,0,0,0,3,1,0.1668,0.0,0.0,0.0,0.0,0.4286,2,1,2,0.04
+EMP0004,Marketing,Marketing Specialist,Low,1,87,7,3,1,0,1,2,0,0.2591,0.4286,0.1429,0.0,0.1429,0.2857,1,1,1,0.13
+EMP0005,Human Resources,HR Specialist,Medium,1,72,7,1,0,0,0,2,1,0.2531,0.1429,0.0,0.0,0.0,0.2857,2,1,2,0.28
+EMP0006,Finance,Finance Manager,Medium,1,72,7,0,0,0,0,3,1,0.2287,0.0,0.0,0.0,0.0,0.4286,2,1,2,0.28
+EMP0007,Marketing,Marketing Specialist,Medium,1,65,7,4,3,0,3,4,0,0.3988,0.5714,0.4286,0.0,0.4286,0.5714,0,0,2,0.35
+EMP0008,Operations,Operations Analyst,Low,1,81,7,3,3,0,2,4,0,0.2797,0.4286,0.4286,0.0,0.2857,0.5714,0,0,1,0.19
+EMP0009,Marketing,Digital Marketing Analyst,Medium,1,78,7,2,2,0,1,4,0,0.2366,0.2857,0.2857,0.0,0.1429,0.5714,1,1,2,0.22
+EMP0010,Information Technology,IT Support Analyst,High,0,60,7,3,1,1,1,2,1,0.5523,0.4286,0.1429,0.1429,0.1429,0.2857,1,1,3,0.4
+EMP0011,Human Resources,HR Specialist,High,1,70,7,1,0,0,0,4,1,0.2435,0.1429,0.0,0.0,0.0,0.5714,0,0,3,0.3
+EMP0012,Human Resources,Recruiter,High,1,74,7,4,2,0,1,4,1,0.3909,0.5714,0.2857,0.0,0.1429,0.5714,3,1,3,0.26
+EMP0013,Operations,Operations Analyst,Medium,1,87,7,0,0,0,0,7,0,0.1539,0.0,0.0,0.0,0.0,1.0,0,0,2,0.13
+EMP0014,Human Resources,Recruiter,Medium,1,63,7,4,2,0,2,6,1,0.2667,0.5714,0.2857,0.0,0.2857,0.8571,0,0,2,0.37
+EMP0015,Operations,Operations Manager,Medium,1,86,7,2,0,1,0,5,0,0.2506,0.2857,0.0,0.1429,0.0,0.7143,0,0,2,0.14
+EMP0016,Sales,Sales Manager,Low,1,80,7,1,0,0,0,4,0,0.3041,0.1429,0.0,0.0,0.0,0.5714,1,1,1,0.2
+EMP0017,Finance,Finance Manager,Medium,1,60,7,4,3,1,3,3,1,0.3461,0.5714,0.4286,0.1429,0.4286,0.4286,0,0,2,0.4
+EMP0018,Operations,Operations Analyst,Low,1,69,7,2,1,0,1,5,0,0.3307,0.2857,0.1429,0.0,0.1429,0.7143,0,0,1,0.31
+EMP0019,Human Resources,Recruiter,High,1,81,7,1,1,0,1,4,1,0.1778,0.1429,0.1429,0.0,0.1429,0.5714,1,1,3,0.19
+EMP0020,Executive,Chief Officer,Privileged,1,73,7,1,1,0,0,4,0,0.2683,0.1429,0.1429,0.0,0.0,0.5714,1,1,4,0.27
+EMP0021,Information Technology,System Administrator,High,1,90,7,2,1,0,0,4,1,0.284,0.2857,0.1429,0.0,0.0,0.5714,1,1,3,0.1
+EMP0022,Sales,Sales Manager,Medium,0,89,7,3,1,0,1,4,0,0.3395,0.4286,0.1429,0.0,0.1429,0.5714,1,1,2,0.11
+EMP0023,Human Resources,HR Manager,Medium,0,81,7,1,0,0,0,2,1,0.3,0.1429,0.0,0.0,0.0,0.2857,2,1,2,0.19
+EMP0024,Sales,Sales Representative,Medium,0,89,7,1,0,0,0,3,0,0.2841,0.1429,0.0,0.0,0.0,0.4286,1,1,2,0.11
+EMP0025,Marketing,Digital Marketing Analyst,Low,1,87,7,2,2,0,1,5,0,0.3225,0.2857,0.2857,0.0,0.1429,0.7143,2,1,1,0.13
+EMP0026,Legal,Legal Assistant,Medium,1,94,7,2,2,0,1,4,0,0.1958,0.2857,0.2857,0.0,0.1429,0.5714,1,1,2,0.06
+EMP0027,Finance,Accountant,High,1,82,7,0,0,0,0,6,1,0.1684,0.0,0.0,0.0,0.0,0.8571,0,0,3,0.18
+EMP0028,Operations,Operations Analyst,Low,1,96,7,1,1,0,0,5,0,0.1609,0.1429,0.1429,0.0,0.0,0.7143,0,0,1,0.04
+EMP0029,Legal,Legal Assistant,High,1,79,7,2,1,1,1,4,0,0.2981,0.2857,0.1429,0.1429,0.1429,0.5714,0,0,3,0.21
+EMP0030,Marketing,Marketing Manager,Medium,1,74,7,0,0,0,0,3,0,0.1865,0.0,0.0,0.0,0.0,0.4286,0,0,2,0.26
+EMP0031,Information Technology,System Administrator,Medium,1,95,7,1,1,0,1,3,1,0.2022,0.1429,0.1429,0.0,0.1429,0.4286,1,1,2,0.05
+EMP0032,Sales,Sales Manager,Medium,0,71,7,1,1,0,0,0,0,0.3084,0.1429,0.1429,0.0,0.0,0.0,1,1,2,0.29
+EMP0033,Marketing,Marketing Manager,Medium,1,88,7,1,1,0,1,3,0,0.2336,0.1429,0.1429,0.0,0.1429,0.4286,0,0,2,0.12
+EMP0034,Legal,Legal Assistant,Medium,1,81,7,3,1,1,1,3,0,0.1084,0.4286,0.1429,0.1429,0.1429,0.4286,1,1,2,0.19
+EMP0035,Executive,Director,High,1,69,7,3,1,1,1,1,0,0.3092,0.4286,0.1429,0.1429,0.1429,0.1429,2,1,3,0.31
+EMP0036,Human Resources,HR Specialist,Medium,1,74,7,1,0,1,0,4,1,0.2238,0.1429,0.0,0.1429,0.0,0.5714,0,0,2,0.26
+EMP0037,Marketing,Marketing Manager,Low,1,78,7,3,2,0,1,3,0,0.2885,0.4286,0.2857,0.0,0.1429,0.4286,1,1,1,0.22
+EMP0038,Marketing,Digital Marketing Analyst,Medium,1,75,7,1,0,0,0,4,0,0.2464,0.1429,0.0,0.0,0.0,0.5714,0,0,2,0.25
+EMP0039,Operations,Operations Manager,Low,1,76,7,2,1,1,1,4,0,0.2844,0.2857,0.1429,0.1429,0.1429,0.5714,1,1,1,0.24
+EMP0040,Human Resources,HR Manager,High,1,82,7,1,1,0,1,6,1,0.1514,0.1429,0.1429,0.0,0.1429,0.8571,1,1,3,0.18
+EMP0041,Legal,Legal Assistant,High,1,54,7,2,2,0,0,4,0,0.3271,0.2857,0.2857,0.0,0.0,0.5714,2,1,3,0.46
+EMP0042,Marketing,Marketing Specialist,Medium,0,77,7,2,1,0,0,1,0,0.3727,0.2857,0.1429,0.0,0.0,0.1429,0,0,2,0.23
+EMP0043,Finance,Finance Manager,High,1,75,7,3,1,1,1,2,1,0.3197,0.4286,0.1429,0.1429,0.1429,0.2857,0,0,3,0.25
+EMP0044,Information Technology,Security Analyst,Medium,1,81,7,3,3,0,1,5,1,0.2457,0.4286,0.4286,0.0,0.1429,0.7143,1,1,2,0.19
+EMP0045,Operations,Operations Manager,Low,1,91,7,3,1,1,1,4,0,0.1424,0.4286,0.1429,0.1429,0.1429,0.5714,1,1,1,0.09
+EMP0046,Information Technology,System Administrator,Medium,1,87,7,1,1,0,1,2,1,0.1638,0.1429,0.1429,0.0,0.1429,0.2857,3,1,2,0.13
+EMP0047,Finance,Finance Manager,High,1,85,7,3,3,0,3,2,1,0.3081,0.4286,0.4286,0.0,0.4286,0.2857,0,0,3,0.15
+EMP0048,Executive,Director,High,1,100,7,0,0,0,0,5,0,0.1273,0.0,0.0,0.0,0.0,0.7143,1,1,3,0.0
+EMP0049,Legal,Compliance Analyst,Medium,1,79,7,0,0,0,0,5,0,0.3663,0.0,0.0,0.0,0.0,0.7143,0,0,2,0.21
+EMP0050,Finance,Financial Analyst,Medium,0,71,7,3,3,0,2,4,1,0.3692,0.4286,0.4286,0.0,0.2857,0.5714,1,1,2,0.29
+EMP0051,Human Resources,HR Manager,High,1,65,7,3,2,0,2,5,1,0.1329,0.4286,0.2857,0.0,0.2857,0.7143,0,0,3,0.35
+EMP0052,Human Resources,HR Manager,Medium,1,83,7,2,1,0,1,3,1,0.3822,0.2857,0.1429,0.0,0.1429,0.4286,1,1,2,0.17
+EMP0053,Information Technology,Security Analyst,High,0,68,7,2,2,0,2,3,1,0.4499,0.2857,0.2857,0.0,0.2857,0.4286,1,1,3,0.32
+EMP0054,Information Technology,System Administrator,Privileged,1,74,7,2,1,0,1,2,1,0.2304,0.2857,0.1429,0.0,0.1429,0.2857,1,1,4,0.26
+EMP0055,Marketing,Marketing Specialist,Low,1,80,7,1,1,0,0,3,0,0.2121,0.1429,0.1429,0.0,0.0,0.4286,1,1,1,0.2
+EMP0056,Operations,Operations Specialist,Medium,1,93,7,1,1,0,1,4,0,0.2265,0.1429,0.1429,0.0,0.1429,0.5714,1,1,2,0.07
+EMP0057,Executive,Chief Officer,Privileged,1,81,7,2,1,0,0,5,0,0.2989,0.2857,0.1429,0.0,0.0,0.7143,0,0,4,0.19
+EMP0058,Human Resources,HR Specialist,Medium,1,87,7,2,1,1,1,2,1,0.2364,0.2857,0.1429,0.1429,0.1429,0.2857,0,0,2,0.13
+EMP0059,Human Resources,Recruiter,Medium,1,81,7,3,2,1,1,5,1,0.3099,0.4286,0.2857,0.1429,0.1429,0.7143,0,0,2,0.19
+EMP0060,Sales,Sales Manager,Low,0,82,7,2,2,0,1,6,0,0.3384,0.2857,0.2857,0.0,0.1429,0.8571,0,0,1,0.18
+EMP0061,Finance,Financial Analyst,Medium,1,81,7,2,1,0,1,4,1,0.2814,0.2857,0.1429,0.0,0.1429,0.5714,0,0,2,0.19
+EMP0062,Sales,Sales Representative,Low,1,69,7,4,3,0,2,4,0,0.346,0.5714,0.4286,0.0,0.2857,0.5714,2,1,1,0.31
+EMP0063,Legal,Legal Assistant,Medium,1,63,7,0,0,0,0,5,0,0.2722,0.0,0.0,0.0,0.0,0.7143,1,1,2,0.37
+EMP0064,Operations,Operations Manager,Medium,1,85,7,2,1,1,1,5,0,0.3495,0.2857,0.1429,0.1429,0.1429,0.7143,0,0,2,0.15
+EMP0065,Sales,Sales Manager,Low,1,89,7,1,1,0,0,5,0,0.2238,0.1429,0.1429,0.0,0.0,0.7143,1,1,1,0.11
+EMP0066,Executive,Director,Privileged,1,82,7,2,1,1,0,4,0,0.205,0.2857,0.1429,0.1429,0.0,0.5714,0,0,4,0.18
+EMP0067,Marketing,Marketing Specialist,Low,1,67,7,3,2,0,1,3,0,0.3679,0.4286,0.2857,0.0,0.1429,0.4286,1,1,1,0.33
+EMP0068,Human Resources,HR Manager,High,1,68,7,1,0,0,0,5,1,0.3964,0.1429,0.0,0.0,0.0,0.7143,1,1,3,0.32
+EMP0069,Legal,Compliance Analyst,High,1,78,7,3,3,0,1,4,0,0.2356,0.4286,0.4286,0.0,0.1429,0.5714,1,1,3,0.22
+EMP0070,Executive,Chief Officer,High,1,95,7,0,0,0,0,6,0,0.1008,0.0,0.0,0.0,0.0,0.8571,1,1,3,0.05
+EMP0071,Human Resources,HR Specialist,High,1,65,7,3,3,0,1,3,1,0.2445,0.4286,0.4286,0.0,0.1429,0.4286,2,1,3,0.35
+EMP0072,Legal,Legal Assistant,Medium,1,83,7,3,2,1,1,4,0,0.2088,0.4286,0.2857,0.1429,0.1429,0.5714,0,0,2,0.17
+EMP0073,Sales,Sales Representative,Medium,1,83,7,2,1,0,1,2,0,0.2231,0.2857,0.1429,0.0,0.1429,0.2857,1,1,2,0.17
+EMP0074,Information Technology,System Administrator,Medium,1,77,7,1,1,0,0,3,1,0.3081,0.1429,0.1429,0.0,0.0,0.4286,0,0,2,0.23
+EMP0075,Operations,Operations Specialist,Low,1,72,7,4,2,0,1,6,0,0.3443,0.5714,0.2857,0.0,0.1429,0.8571,1,1,1,0.28
+EMP0076,Human Resources,Recruiter,Medium,1,88,7,1,0,0,0,4,1,0.2076,0.1429,0.0,0.0,0.0,0.5714,0,0,2,0.12
+EMP0077,Finance,Finance Manager,Medium,1,67,7,2,2,0,0,4,1,0.4728,0.2857,0.2857,0.0,0.0,0.5714,3,1,2,0.33
+EMP0078,Human Resources,HR Specialist,Medium,1,79,7,4,3,0,1,6,1,0.2494,0.5714,0.4286,0.0,0.1429,0.8571,1,1,2,0.21
+EMP0079,Marketing,Digital Marketing Analyst,Medium,1,82,7,3,2,1,2,3,0,0.1976,0.4286,0.2857,0.1429,0.2857,0.4286,0,0,2,0.18
+EMP0080,Sales,Account Executive,Low,1,84,7,3,3,0,3,2,0,0.3118,0.4286,0.4286,0.0,0.4286,0.2857,2,1,1,0.16
+EMP0081,Information Technology,System Administrator,Medium,1,84,7,0,0,0,0,5,1,0.1982,0.0,0.0,0.0,0.0,0.7143,0,0,2,0.16
+EMP0082,Marketing,Digital Marketing Analyst,Medium,1,84,7,2,1,1,1,3,0,0.2794,0.2857,0.1429,0.1429,0.1429,0.4286,1,1,2,0.16
+EMP0083,Operations,Operations Specialist,Medium,1,84,7,1,0,1,0,5,0,0.1762,0.1429,0.0,0.1429,0.0,0.7143,1,1,2,0.16
+EMP0084,Information Technology,IT Support Analyst,High,1,91,7,0,0,0,0,3,1,0.1425,0.0,0.0,0.0,0.0,0.4286,0,0,3,0.09
+EMP0085,Sales,Sales Representative,Low,1,68,7,0,0,0,0,3,0,0.3083,0.0,0.0,0.0,0.0,0.4286,0,0,1,0.32
+EMP0086,Legal,Legal Assistant,Medium,0,75,7,4,3,0,3,3,0,0.3838,0.5714,0.4286,0.0,0.4286,0.4286,3,1,2,0.25
+EMP0087,Executive,Chief Officer,High,1,86,7,2,1,0,1,4,0,0.187,0.2857,0.1429,0.0,0.1429,0.5714,1,1,3,0.14
+EMP0088,Finance,Finance Manager,Medium,0,58,7,3,2,1,2,2,1,0.4752,0.4286,0.2857,0.1429,0.2857,0.2857,3,1,2,0.42
+EMP0089,Information Technology,IT Support Analyst,Privileged,1,78,7,1,1,0,1,5,1,0.1707,0.1429,0.1429,0.0,0.1429,0.7143,1,1,4,0.22
+EMP0090,Human Resources,HR Manager,Medium,1,65,7,4,3,0,2,2,1,0.3747,0.5714,0.4286,0.0,0.2857,0.2857,1,1,2,0.35
+EMP0091,Marketing,Marketing Specialist,Low,0,78,7,4,2,1,0,1,0,0.3467,0.5714,0.2857,0.1429,0.0,0.1429,2,1,1,0.22
+EMP0092,Finance,Finance Manager,Medium,1,70,7,6,2,1,1,1,1,0.4817,0.8571,0.2857,0.1429,0.1429,0.1429,3,1,2,0.3
+EMP0093,Marketing,Marketing Manager,Medium,1,53,7,3,2,1,1,1,0,0.4087,0.4286,0.2857,0.1429,0.1429,0.1429,2,1,2,0.47
+EMP0094,Operations,Operations Analyst,Medium,1,80,7,3,1,0,1,7,0,0.1966,0.4286,0.1429,0.0,0.1429,1.0,0,0,2,0.2
+EMP0095,Sales,Account Executive,Medium,0,84,7,5,4,1,3,3,0,0.3264,0.7143,0.5714,0.1429,0.4286,0.4286,0,0,2,0.16
+EMP0096,Information Technology,Security Analyst,Privileged,1,88,7,2,2,0,1,5,1,0.2727,0.2857,0.2857,0.0,0.1429,0.7143,0,0,4,0.12
+EMP0097,Operations,Operations Specialist,Medium,1,99,7,1,1,0,0,1,0,0.1522,0.1429,0.1429,0.0,0.0,0.1429,1,1,2,0.01
+EMP0098,Human Resources,HR Specialist,High,1,82,7,2,1,1,0,3,1,0.3328,0.2857,0.1429,0.1429,0.0,0.4286,3,1,3,0.18
+EMP0099,Human Resources,HR Specialist,Medium,1,100,7,3,2,0,1,6,1,0.2619,0.4286,0.2857,0.0,0.1429,0.8571,3,1,2,0.0
+EMP0100,Operations,Operations Analyst,Medium,1,90,7,1,0,0,0,6,0,0.2116,0.1429,0.0,0.0,0.0,0.8571,1,1,2,0.1
+EMP0101,Human Resources,HR Specialist,High,1,83,7,0,0,0,0,5,1,0.272,0.0,0.0,0.0,0.0,0.7143,1,1,3,0.17
+EMP0102,Operations,Operations Analyst,Medium,0,87,7,1,1,0,0,4,0,0.3531,0.1429,0.1429,0.0,0.0,0.5714,1,1,2,0.13
+EMP0103,Operations,Operations Manager,Low,1,74,7,3,2,0,2,4,0,0.2769,0.4286,0.2857,0.0,0.2857,0.5714,2,1,1,0.26
+EMP0104,Operations,Operations Manager,Low,1,63,7,2,2,0,2,2,0,0.3774,0.2857,0.2857,0.0,0.2857,0.2857,2,1,1,0.37
+EMP0105,Information Technology,System Administrator,Medium,0,95,7,3,2,1,1,3,1,0.2831,0.4286,0.2857,0.1429,0.1429,0.4286,2,1,2,0.05
+EMP0106,Human Resources,HR Manager,Medium,1,60,7,1,1,0,0,5,1,0.2581,0.1429,0.1429,0.0,0.0,0.7143,2,1,2,0.4
+EMP0107,Operations,Operations Specialist,Low,1,80,7,1,1,0,1,3,0,0.1548,0.1429,0.1429,0.0,0.1429,0.4286,0,0,1,0.2
+EMP0108,Legal,Legal Assistant,High,1,70,7,2,2,0,0,3,0,0.3272,0.2857,0.2857,0.0,0.0,0.4286,1,1,3,0.3
+EMP0109,Executive,Vice President,High,1,97,7,1,0,1,0,5,0,0.2487,0.1429,0.0,0.1429,0.0,0.7143,1,1,3,0.03
+EMP0110,Human Resources,HR Manager,High,1,63,7,4,2,0,1,5,1,0.2751,0.5714,0.2857,0.0,0.1429,0.7143,1,1,3,0.37
+EMP0111,Operations,Operations Analyst,Low,1,81,7,5,3,1,2,3,0,0.2992,0.7143,0.4286,0.1429,0.2857,0.4286,2,1,1,0.19
+EMP0112,Legal,Legal Assistant,High,1,70,7,3,2,0,2,2,0,0.325,0.4286,0.2857,0.0,0.2857,0.2857,1,1,3,0.3
+EMP0113,Information Technology,Security Analyst,High,0,70,7,3,1,1,1,3,1,0.4139,0.4286,0.1429,0.1429,0.1429,0.4286,2,1,3,0.3
+EMP0114,Marketing,Marketing Manager,Low,1,88,7,1,1,0,1,5,0,0.3402,0.1429,0.1429,0.0,0.1429,0.7143,2,1,1,0.12
+EMP0115,Human Resources,HR Specialist,Medium,1,87,7,1,1,0,1,5,1,0.2929,0.1429,0.1429,0.0,0.1429,0.7143,1,1,2,0.13
+EMP0116,Finance,Accountant,Medium,1,85,7,3,2,0,2,4,1,0.3095,0.4286,0.2857,0.0,0.2857,0.5714,2,1,2,0.15
+EMP0117,Marketing,Marketing Specialist,Low,1,77,7,5,2,1,2,2,0,0.2741,0.7143,0.2857,0.1429,0.2857,0.2857,1,1,1,0.23
+EMP0118,Operations,Operations Specialist,Low,1,79,7,0,0,0,0,4,0,0.1658,0.0,0.0,0.0,0.0,0.5714,1,1,1,0.21
+EMP0119,Legal,Legal Assistant,Medium,1,75,7,3,2,0,1,2,0,0.3858,0.4286,0.2857,0.0,0.1429,0.2857,0,0,2,0.25
+EMP0120,Human Resources,Recruiter,High,1,91,7,3,1,0,1,6,1,0.2203,0.4286,0.1429,0.0,0.1429,0.8571,2,1,3,0.09
+EMP0121,Information Technology,IT Support Analyst,Medium,1,93,7,3,2,0,0,5,1,0.141,0.4286,0.2857,0.0,0.0,0.7143,0,0,2,0.07
+EMP0122,Information Technology,System Administrator,Medium,1,78,7,1,0,0,0,1,1,0.2568,0.1429,0.0,0.0,0.0,0.1429,1,1,2,0.22
+EMP0123,Information Technology,Security Analyst,High,0,81,7,2,1,0,0,4,1,0.3773,0.2857,0.1429,0.0,0.0,0.5714,0,0,3,0.19
+EMP0124,Marketing,Marketing Manager,Low,1,76,7,2,1,0,1,6,0,0.4032,0.2857,0.1429,0.0,0.1429,0.8571,1,1,1,0.24
+EMP0125,Operations,Operations Analyst,Low,1,65,7,0,0,0,0,4,0,0.3245,0.0,0.0,0.0,0.0,0.5714,0,0,1,0.35
+EMP0126,Marketing,Marketing Specialist,Medium,1,63,7,2,2,0,1,2,0,0.2243,0.2857,0.2857,0.0,0.1429,0.2857,0,0,2,0.37
+EMP0127,Sales,Sales Representative,Medium,1,77,7,3,1,1,0,6,0,0.2709,0.4286,0.1429,0.1429,0.0,0.8571,2,1,2,0.23
+EMP0128,Legal,Compliance Analyst,Medium,1,67,7,3,1,1,0,4,0,0.2869,0.4286,0.1429,0.1429,0.0,0.5714,1,1,2,0.33
+EMP0129,Sales,Sales Representative,Low,1,68,7,3,1,1,1,2,0,0.2965,0.4286,0.1429,0.1429,0.1429,0.2857,0,0,1,0.32
+EMP0130,Marketing,Digital Marketing Analyst,Medium,1,74,7,2,0,1,0,5,0,0.3084,0.2857,0.0,0.1429,0.0,0.7143,2,1,2,0.26
+EMP0131,Human Resources,Recruiter,High,0,80,7,4,3,1,2,3,1,0.4388,0.5714,0.4286,0.1429,0.2857,0.4286,3,1,3,0.2
+EMP0132,Marketing,Marketing Manager,Medium,1,71,7,4,2,1,2,2,0,0.2793,0.5714,0.2857,0.1429,0.2857,0.2857,2,1,2,0.29
+EMP0133,Finance,Financial Analyst,High,0,60,7,0,0,0,0,4,1,0.3473,0.0,0.0,0.0,0.0,0.5714,2,1,3,0.4
+EMP0134,Information Technology,Security Analyst,High,1,61,7,3,1,0,1,4,1,0.4238,0.4286,0.1429,0.0,0.1429,0.5714,1,1,3,0.39
+EMP0135,Finance,Financial Analyst,High,1,69,7,1,0,0,0,5,1,0.2547,0.1429,0.0,0.0,0.0,0.7143,0,0,3,0.31
+EMP0136,Legal,Legal Manager,High,1,75,7,2,2,0,0,3,0,0.3141,0.2857,0.2857,0.0,0.0,0.4286,0,0,3,0.25
+EMP0137,Marketing,Marketing Manager,Low,1,77,7,0,0,0,0,4,0,0.1592,0.0,0.0,0.0,0.0,0.5714,1,1,1,0.23
+EMP0138,Marketing,Marketing Manager,Low,1,65,7,2,2,0,2,2,0,0.3517,0.2857,0.2857,0.0,0.2857,0.2857,1,1,1,0.35
+EMP0139,Operations,Operations Analyst,Medium,0,81,7,1,0,1,0,5,0,0.3813,0.1429,0.0,0.1429,0.0,0.7143,2,1,2,0.19
+EMP0140,Finance,Finance Manager,Medium,1,68,7,4,1,0,0,3,1,0.3959,0.5714,0.1429,0.0,0.0,0.4286,1,1,2,0.32
+EMP0141,Legal,Compliance Analyst,Medium,1,86,7,0,0,0,0,5,0,0.1162,0.0,0.0,0.0,0.0,0.7143,1,1,2,0.14
+EMP0142,Legal,Legal Manager,High,1,73,7,2,1,1,1,4,0,0.2499,0.2857,0.1429,0.1429,0.1429,0.5714,1,1,3,0.27
+EMP0143,Human Resources,HR Manager,High,1,80,7,2,2,0,2,2,1,0.2149,0.2857,0.2857,0.0,0.2857,0.2857,1,1,3,0.2
+EMP0144,Operations,Operations Manager,Medium,1,78,7,2,0,1,0,2,0,0.3219,0.2857,0.0,0.1429,0.0,0.2857,1,1,2,0.22
+EMP0145,Legal,Compliance Analyst,High,1,95,7,3,2,1,1,5,0,0.2998,0.4286,0.2857,0.1429,0.1429,0.7143,1,1,3,0.05
+EMP0146,Information Technology,IT Support Analyst,High,1,89,7,0,0,0,0,5,1,0.1522,0.0,0.0,0.0,0.0,0.7143,0,0,3,0.11
+EMP0147,Marketing,Marketing Manager,Low,1,100,7,1,1,0,0,6,0,0.1714,0.1429,0.1429,0.0,0.0,0.8571,0,0,1,0.0
+EMP0148,Operations,Operations Specialist,Low,1,68,7,2,1,0,1,3,0,0.291,0.2857,0.1429,0.0,0.1429,0.4286,0,0,1,0.32
+EMP0149,Operations,Operations Specialist,Low,1,68,7,1,1,0,0,5,0,0.2571,0.1429,0.1429,0.0,0.0,0.7143,1,1,1,0.32
+EMP0150,Marketing,Marketing Manager,Medium,1,79,7,0,0,0,0,4,0,0.2963,0.0,0.0,0.0,0.0,0.5714,1,1,2,0.21
+EMP0151,Executive,Vice President,Privileged,1,89,7,1,0,0,0,5,0,0.19,0.1429,0.0,0.0,0.0,0.7143,1,1,4,0.11
+EMP0152,Sales,Sales Manager,Medium,1,71,7,3,1,0,1,2,0,0.3212,0.4286,0.1429,0.0,0.1429,0.2857,2,1,2,0.29
+EMP0153,Information Technology,Security Analyst,Medium,1,62,7,4,3,0,1,1,1,0.3688,0.5714,0.4286,0.0,0.1429,0.1429,2,1,2,0.38
+EMP0154,Operations,Operations Manager,Medium,1,99,7,2,1,0,0,5,0,0.3515,0.2857,0.1429,0.0,0.0,0.7143,1,1,2,0.01
+EMP0155,Human Resources,HR Specialist,High,0,92,7,2,1,0,1,5,1,0.2119,0.2857,0.1429,0.0,0.1429,0.7143,3,1,3,0.08
+EMP0156,Sales,Sales Representative,Low,1,72,7,3,0,1,0,3,0,0.3379,0.4286,0.0,0.1429,0.0,0.4286,2,1,1,0.28
+EMP0157,Finance,Financial Analyst,Medium,1,76,7,1,0,1,0,2,1,0.3033,0.1429,0.0,0.1429,0.0,0.2857,2,1,2,0.24
+EMP0158,Executive,Chief Officer,High,1,92,7,2,2,0,2,2,0,0.3108,0.2857,0.2857,0.0,0.2857,0.2857,1,1,3,0.08
+EMP0159,Executive,Vice President,High,1,78,7,3,3,0,1,4,0,0.332,0.4286,0.4286,0.0,0.1429,0.5714,1,1,3,0.22
+EMP0160,Marketing,Digital Marketing Analyst,Medium,1,78,7,3,0,1,0,5,0,0.1647,0.4286,0.0,0.1429,0.0,0.7143,1,1,2,0.22
+EMP0161,Sales,Sales Representative,Low,1,65,7,2,0,0,0,5,0,0.4071,0.2857,0.0,0.0,0.0,0.7143,2,1,1,0.35
+EMP0162,Human Resources,Recruiter,Medium,1,76,7,1,1,0,0,3,1,0.2392,0.1429,0.1429,0.0,0.0,0.4286,0,0,2,0.24
+EMP0163,Information Technology,Security Analyst,Privileged,1,59,7,2,1,1,0,1,1,0.2665,0.2857,0.1429,0.1429,0.0,0.1429,1,1,4,0.41
+EMP0164,Executive,Director,High,1,93,7,2,1,0,1,4,0,0.2553,0.2857,0.1429,0.0,0.1429,0.5714,1,1,3,0.07
+EMP0165,Human Resources,Recruiter,Medium,1,92,7,2,1,1,0,3,1,0.302,0.2857,0.1429,0.1429,0.0,0.4286,3,1,2,0.08
+EMP0166,Executive,Chief Officer,Privileged,1,78,7,1,0,1,0,4,0,0.1771,0.1429,0.0,0.1429,0.0,0.5714,0,0,4,0.22
+EMP0167,Executive,Chief Officer,Privileged,1,85,7,2,1,0,1,5,0,0.2257,0.2857,0.1429,0.0,0.1429,0.7143,2,1,4,0.15
+EMP0168,Executive,Director,Privileged,1,94,7,3,2,1,1,6,0,0.3257,0.4286,0.2857,0.1429,0.1429,0.8571,1,1,4,0.06
+EMP0169,Executive,Vice President,High,0,90,7,2,2,0,1,6,0,0.3599,0.2857,0.2857,0.0,0.1429,0.8571,1,1,3,0.1
+EMP0170,Operations,Operations Manager,Medium,1,56,7,0,0,0,0,2,0,0.3127,0.0,0.0,0.0,0.0,0.2857,1,1,2,0.44
+EMP0171,Sales,Account Executive,Medium,1,96,7,1,1,0,0,4,0,0.1952,0.1429,0.1429,0.0,0.0,0.5714,0,0,2,0.04
+EMP0172,Human Resources,HR Manager,High,1,78,7,0,0,0,0,5,1,0.3032,0.0,0.0,0.0,0.0,0.7143,0,0,3,0.22
+EMP0173,Sales,Account Executive,Medium,1,57,7,1,1,0,1,4,0,0.2892,0.1429,0.1429,0.0,0.1429,0.5714,1,1,2,0.43
+EMP0174,Legal,Legal Manager,Medium,1,77,7,4,3,0,2,2,0,0.3912,0.5714,0.4286,0.0,0.2857,0.2857,1,1,2,0.23
+EMP0175,Information Technology,IT Support Analyst,Medium,1,62,7,5,4,0,3,1,1,0.4122,0.7143,0.5714,0.0,0.4286,0.1429,1,1,2,0.38
+EMP0176,Marketing,Marketing Manager,Low,0,86,7,2,2,0,2,2,0,0.3054,0.2857,0.2857,0.0,0.2857,0.2857,2,1,1,0.14
+EMP0177,Sales,Sales Representative,Medium,1,82,7,1,0,0,0,6,0,0.1225,0.1429,0.0,0.0,0.0,0.8571,0,0,2,0.18
+EMP0178,Marketing,Digital Marketing Analyst,Medium,1,66,7,1,1,0,1,3,0,0.3226,0.1429,0.1429,0.0,0.1429,0.4286,1,1,2,0.34
+EMP0179,Marketing,Marketing Specialist,Low,1,66,7,2,1,0,0,3,0,0.2805,0.2857,0.1429,0.0,0.0,0.4286,0,0,1,0.34
+EMP0180,Marketing,Digital Marketing Analyst,Low,0,84,7,5,3,1,1,2,0,0.4784,0.7143,0.4286,0.1429,0.1429,0.2857,1,1,1,0.16
+EMP0181,Marketing,Digital Marketing Analyst,Low,1,76,7,1,0,1,0,4,0,0.2174,0.1429,0.0,0.1429,0.0,0.5714,0,0,1,0.24
+EMP0182,Legal,Compliance Analyst,High,1,65,7,2,1,0,0,5,0,0.2665,0.2857,0.1429,0.0,0.0,0.7143,0,0,3,0.35
+EMP0183,Marketing,Marketing Manager,Low,1,69,7,3,3,0,2,2,0,0.2889,0.4286,0.4286,0.0,0.2857,0.2857,1,1,1,0.31
+EMP0184,Executive,Director,Privileged,1,80,7,1,1,0,0,3,0,0.271,0.1429,0.1429,0.0,0.0,0.4286,1,1,4,0.2
+EMP0185,Marketing,Digital Marketing Analyst,Low,1,85,7,4,2,1,1,3,0,0.2208,0.5714,0.2857,0.1429,0.1429,0.4286,0,0,1,0.15
+EMP0186,Marketing,Digital Marketing Analyst,Medium,1,87,7,1,0,0,0,4,0,0.1983,0.1429,0.0,0.0,0.0,0.5714,1,1,2,0.13
+EMP0187,Information Technology,System Administrator,Medium,1,59,7,3,1,0,0,4,1,0.3569,0.4286,0.1429,0.0,0.0,0.5714,1,1,2,0.41
+EMP0188,Finance,Accountant,Medium,1,94,7,3,2,1,0,5,1,0.1846,0.4286,0.2857,0.1429,0.0,0.7143,1,1,2,0.06
+EMP0189,Human Resources,HR Manager,High,1,84,7,1,1,0,1,5,1,0.2998,0.1429,0.1429,0.0,0.1429,0.7143,2,1,3,0.16
+EMP0190,Information Technology,System Administrator,Medium,1,81,7,2,0,1,0,4,1,0.2201,0.2857,0.0,0.1429,0.0,0.5714,0,0,2,0.19
+EMP0191,Finance,Accountant,High,1,58,7,1,0,1,0,1,1,0.414,0.1429,0.0,0.1429,0.0,0.1429,0,0,3,0.42
+EMP0192,Legal,Legal Assistant,High,1,80,7,2,1,0,0,3,0,0.2685,0.2857,0.1429,0.0,0.0,0.4286,0,0,3,0.2
+EMP0193,Legal,Compliance Analyst,High,1,70,7,3,2,0,1,3,0,0.2941,0.4286,0.2857,0.0,0.1429,0.4286,1,1,3,0.3
+EMP0194,Operations,Operations Specialist,Medium,1,65,7,1,0,0,0,5,0,0.2856,0.1429,0.0,0.0,0.0,0.7143,2,1,2,0.35
+EMP0195,Human Resources,Recruiter,Medium,1,77,7,1,1,0,1,3,1,0.3308,0.1429,0.1429,0.0,0.1429,0.4286,1,1,2,0.23
+EMP0196,Finance,Accountant,Medium,1,95,7,1,1,0,0,5,1,0.1681,0.1429,0.1429,0.0,0.0,0.7143,1,1,2,0.05
+EMP0197,Human Resources,HR Manager,Medium,1,65,7,2,1,1,1,4,1,0.2976,0.2857,0.1429,0.1429,0.1429,0.5714,0,0,2,0.35
+EMP0198,Finance,Financial Analyst,Medium,1,75,7,3,1,1,1,3,1,0.2866,0.4286,0.1429,0.1429,0.1429,0.4286,0,0,2,0.25
+EMP0199,Finance,Finance Manager,Medium,1,61,7,2,1,0,1,4,1,0.3216,0.2857,0.1429,0.0,0.1429,0.5714,2,1,2,0.39
+EMP0200,Sales,Sales Representative,Medium,1,84,7,2,1,1,0,4,0,0.1629,0.2857,0.1429,0.1429,0.0,0.5714,1,1,2,0.16
+EMP0201,Human Resources,HR Manager,Medium,1,70,7,2,1,0,1,3,1,0.3217,0.2857,0.1429,0.0,0.1429,0.4286,1,1,2,0.3
+EMP0202,Executive,Chief Officer,Privileged,1,67,7,1,0,1,0,2,0,0.2831,0.1429,0.0,0.1429,0.0,0.2857,1,1,4,0.33
+EMP0203,Legal,Legal Assistant,Medium,1,81,7,1,1,0,1,4,0,0.2735,0.1429,0.1429,0.0,0.1429,0.5714,0,0,2,0.19
+EMP0204,Information Technology,System Administrator,Medium,1,77,7,2,2,0,1,6,1,0.1663,0.2857,0.2857,0.0,0.1429,0.8571,1,1,2,0.23
+EMP0205,Finance,Accountant,High,1,71,7,4,3,0,2,2,1,0.4372,0.5714,0.4286,0.0,0.2857,0.2857,0,0,3,0.29
+EMP0206,Marketing,Marketing Manager,Low,1,87,7,2,1,0,1,4,0,0.2066,0.2857,0.1429,0.0,0.1429,0.5714,1,1,1,0.13
+EMP0207,Human Resources,HR Manager,Medium,1,57,7,1,0,0,0,3,1,0.368,0.1429,0.0,0.0,0.0,0.4286,1,1,2,0.43
+EMP0208,Human Resources,HR Manager,High,1,84,7,3,1,0,0,5,1,0.2572,0.4286,0.1429,0.0,0.0,0.7143,1,1,3,0.16
+EMP0209,Human Resources,HR Manager,Medium,1,58,7,3,2,0,0,0,1,0.269,0.4286,0.2857,0.0,0.0,0.0,1,1,2,0.42
+EMP0210,Legal,Legal Manager,High,1,78,7,2,1,0,1,3,0,0.2216,0.2857,0.1429,0.0,0.1429,0.4286,0,0,3,0.22
+EMP0211,Legal,Legal Assistant,High,1,77,7,2,0,0,0,4,0,0.2158,0.2857,0.0,0.0,0.0,0.5714,1,1,3,0.23
+EMP0212,Finance,Accountant,High,0,63,7,2,2,0,1,3,1,0.4514,0.2857,0.2857,0.0,0.1429,0.4286,2,1,3,0.37
+EMP0213,Human Resources,Recruiter,High,0,90,7,3,1,0,1,3,1,0.3236,0.4286,0.1429,0.0,0.1429,0.4286,2,1,3,0.1
+EMP0214,Executive,Chief Officer,High,1,71,7,2,2,0,1,4,0,0.3463,0.2857,0.2857,0.0,0.1429,0.5714,1,1,3,0.29
+EMP0215,Marketing,Marketing Specialist,Medium,1,48,7,0,0,0,0,3,0,0.3811,0.0,0.0,0.0,0.0,0.4286,1,1,2,0.52
+EMP0216,Executive,Vice President,Privileged,1,68,7,4,2,0,0,3,0,0.3661,0.5714,0.2857,0.0,0.0,0.4286,0,0,4,0.32
+EMP0217,Operations,Operations Specialist,Low,1,82,7,2,1,0,1,0,0,0.1885,0.2857,0.1429,0.0,0.1429,0.0,1,1,1,0.18
+EMP0218,Human Resources,Recruiter,High,1,70,7,3,2,0,1,2,1,0.324,0.4286,0.2857,0.0,0.1429,0.2857,1,1,3,0.3
+EMP0219,Sales,Account Executive,Medium,1,92,7,1,1,0,1,3,0,0.2179,0.1429,0.1429,0.0,0.1429,0.4286,0,0,2,0.08
+EMP0220,Legal,Legal Assistant,High,1,81,7,2,2,0,1,6,0,0.2402,0.2857,0.2857,0.0,0.1429,0.8571,1,1,3,0.19
+EMP0221,Legal,Legal Assistant,High,1,82,7,3,0,1,0,5,0,0.3198,0.4286,0.0,0.1429,0.0,0.7143,1,1,3,0.18
+EMP0222,Sales,Account Executive,Medium,1,72,7,1,1,0,0,4,0,0.307,0.1429,0.1429,0.0,0.0,0.5714,2,1,2,0.28
+EMP0223,Legal,Compliance Analyst,High,1,92,7,1,0,0,0,5,0,0.196,0.1429,0.0,0.0,0.0,0.7143,0,0,3,0.08
+EMP0224,Finance,Finance Manager,Medium,1,73,7,3,1,1,0,3,1,0.3745,0.4286,0.1429,0.1429,0.0,0.4286,2,1,2,0.27
+EMP0225,Human Resources,HR Specialist,High,1,78,7,0,0,0,0,3,1,0.3808,0.0,0.0,0.0,0.0,0.4286,3,1,3,0.22
+EMP0226,Executive,Chief Officer,High,1,98,7,1,1,0,0,4,0,0.2242,0.1429,0.1429,0.0,0.0,0.5714,0,0,3,0.02
+EMP0227,Executive,Chief Officer,Privileged,1,80,7,1,1,0,1,4,0,0.2058,0.1429,0.1429,0.0,0.1429,0.5714,1,1,4,0.2
+EMP0228,Executive,Director,High,1,87,7,0,0,0,0,2,0,0.1667,0.0,0.0,0.0,0.0,0.2857,0,0,3,0.13
+EMP0229,Operations,Operations Analyst,Medium,1,82,7,1,0,1,0,2,0,0.3057,0.1429,0.0,0.1429,0.0,0.2857,2,1,2,0.18
+EMP0230,Sales,Account Executive,Medium,1,73,7,2,2,0,2,1,0,0.2572,0.2857,0.2857,0.0,0.2857,0.1429,1,1,2,0.27
+EMP0231,Executive,Chief Officer,Privileged,1,72,7,3,2,0,1,1,0,0.3776,0.4286,0.2857,0.0,0.1429,0.1429,1,1,4,0.28
+EMP0232,Marketing,Marketing Manager,Medium,1,67,7,4,2,0,0,3,0,0.2978,0.5714,0.2857,0.0,0.0,0.4286,3,1,2,0.33
+EMP0233,Legal,Legal Manager,High,1,83,7,1,1,0,0,4,0,0.1763,0.1429,0.1429,0.0,0.0,0.5714,1,1,3,0.17
+EMP0234,Operations,Operations Specialist,Medium,1,82,7,0,0,0,0,4,0,0.2737,0.0,0.0,0.0,0.0,0.5714,1,1,2,0.18
+EMP0235,Sales,Sales Representative,Low,1,74,7,1,1,0,1,3,0,0.2415,0.1429,0.1429,0.0,0.1429,0.4286,2,1,1,0.26
+EMP0236,Legal,Legal Assistant,Medium,0,66,7,2,0,0,0,1,0,0.3575,0.2857,0.0,0.0,0.0,0.1429,0,0,2,0.34
+EMP0237,Sales,Sales Representative,Medium,1,88,7,1,1,0,1,6,0,0.1916,0.1429,0.1429,0.0,0.1429,0.8571,1,1,2,0.12
+EMP0238,Operations,Operations Manager,Medium,1,94,7,1,0,0,0,3,0,0.1768,0.1429,0.0,0.0,0.0,0.4286,0,0,2,0.06
+EMP0239,Human Resources,HR Specialist,High,1,56,7,0,0,0,0,4,1,0.349,0.0,0.0,0.0,0.0,0.5714,2,1,3,0.44
+EMP0240,Sales,Account Executive,Low,1,95,7,4,2,1,2,6,0,0.2846,0.5714,0.2857,0.1429,0.2857,0.8571,1,1,1,0.05
+EMP0241,Operations,Operations Analyst,Low,1,100,7,0,0,0,0,4,0,0.1715,0.0,0.0,0.0,0.0,0.5714,0,0,1,0.0
+EMP0242,Operations,Operations Analyst,Low,1,79,7,4,3,0,2,2,0,0.2711,0.5714,0.4286,0.0,0.2857,0.2857,1,1,1,0.21
+EMP0243,Operations,Operations Manager,Low,1,83,7,2,1,1,0,5,0,0.2134,0.2857,0.1429,0.1429,0.0,0.7143,2,1,1,0.17
+EMP0244,Executive,Director,High,1,80,7,0,0,0,0,3,0,0.2632,0.0,0.0,0.0,0.0,0.4286,1,1,3,0.2
+EMP0245,Operations,Operations Specialist,Medium,1,97,7,1,0,0,0,2,0,0.1744,0.1429,0.0,0.0,0.0,0.2857,0,0,2,0.03
+EMP0246,Executive,Vice President,High,1,71,7,1,0,1,0,5,0,0.2631,0.1429,0.0,0.1429,0.0,0.7143,2,1,3,0.29
+EMP0247,Finance,Accountant,High,0,78,7,2,1,0,0,5,1,0.4381,0.2857,0.1429,0.0,0.0,0.7143,2,1,3,0.22
+EMP0248,Human Resources,HR Specialist,High,1,91,7,0,0,0,0,6,1,0.1979,0.0,0.0,0.0,0.0,0.8571,0,0,3,0.09
+EMP0249,Executive,Director,High,1,65,7,3,2,0,0,3,0,0.3387,0.4286,0.2857,0.0,0.0,0.4286,0,0,3,0.35
+EMP0250,Information Technology,IT Support Analyst,Privileged,1,58,7,2,1,0,0,2,1,0.3044,0.2857,0.1429,0.0,0.0,0.2857,0,0,4,0.42
+EMP0251,Operations,Operations Analyst,Low,1,73,7,3,0,0,0,2,0,0.2745,0.4286,0.0,0.0,0.0,0.2857,1,1,1,0.27
+EMP0252,Human Resources,HR Manager,High,1,98,7,1,1,0,0,4,1,0.1174,0.1429,0.1429,0.0,0.0,0.5714,1,1,3,0.02
+EMP0253,Sales,Sales Manager,Medium,1,45,7,0,0,0,0,2,0,0.3409,0.0,0.0,0.0,0.0,0.2857,1,1,2,0.55
+EMP0254,Executive,Vice President,Privileged,1,77,7,2,0,0,0,5,0,0.4355,0.2857,0.0,0.0,0.0,0.7143,1,1,4,0.23
+EMP0255,Marketing,Digital Marketing Analyst,Low,1,74,7,2,2,0,1,3,0,0.1814,0.2857,0.2857,0.0,0.1429,0.4286,1,1,1,0.26
+EMP0256,Human Resources,HR Specialist,Medium,1,64,7,2,1,1,1,2,1,0.3149,0.2857,0.1429,0.1429,0.1429,0.2857,2,1,2,0.36
+EMP0257,Operations,Operations Manager,Low,1,78,7,3,1,1,0,4,0,0.2577,0.4286,0.1429,0.1429,0.0,0.5714,1,1,1,0.22
+EMP0258,Information Technology,IT Support Analyst,Medium,1,77,7,1,1,0,0,1,1,0.233,0.1429,0.1429,0.0,0.0,0.1429,1,1,2,0.23
+EMP0259,Human Resources,HR Specialist,Medium,1,77,7,1,0,0,0,3,1,0.3238,0.1429,0.0,0.0,0.0,0.4286,1,1,2,0.23
+EMP0260,Marketing,Digital Marketing Analyst,Medium,0,71,7,5,2,1,1,0,0,0.4529,0.7143,0.2857,0.1429,0.1429,0.0,2,1,2,0.29
+EMP0261,Operations,Operations Analyst,Low,1,46,7,3,2,0,1,3,0,0.3728,0.4286,0.2857,0.0,0.1429,0.4286,1,1,1,0.54
+EMP0262,Operations,Operations Manager,Medium,1,91,7,1,1,0,0,7,0,0.2942,0.1429,0.1429,0.0,0.0,1.0,1,1,2,0.09
+EMP0263,Executive,Director,High,1,61,7,5,3,1,3,2,0,0.4305,0.7143,0.4286,0.1429,0.4286,0.2857,1,1,3,0.39
+EMP0264,Operations,Operations Manager,Low,1,68,7,1,0,1,0,4,0,0.1539,0.1429,0.0,0.1429,0.0,0.5714,0,0,1,0.32
+EMP0265,Marketing,Marketing Specialist,Low,1,89,7,2,1,0,0,4,0,0.1682,0.2857,0.1429,0.0,0.0,0.5714,0,0,1,0.11
+EMP0266,Information Technology,System Administrator,Medium,1,93,7,2,1,0,1,5,1,0.2056,0.2857,0.1429,0.0,0.1429,0.7143,0,0,2,0.07
+EMP0267,Human Resources,HR Specialist,Medium,1,71,7,4,2,1,1,5,1,0.2964,0.5714,0.2857,0.1429,0.1429,0.7143,1,1,2,0.29
+EMP0268,Operations,Operations Manager,Medium,1,83,7,1,0,0,0,2,0,0.2792,0.1429,0.0,0.0,0.0,0.2857,1,1,2,0.17
+EMP0269,Executive,Director,Privileged,1,86,7,4,3,1,2,4,0,0.3777,0.5714,0.4286,0.1429,0.2857,0.5714,1,1,4,0.14
+EMP0270,Operations,Operations Manager,Medium,1,83,7,2,0,0,0,6,0,0.3119,0.2857,0.0,0.0,0.0,0.8571,0,0,2,0.17
+EMP0271,Operations,Operations Manager,Medium,1,85,7,4,2,1,0,2,0,0.2866,0.5714,0.2857,0.1429,0.0,0.2857,1,1,2,0.15
+EMP0272,Executive,Director,High,0,74,7,2,2,0,1,3,0,0.3723,0.2857,0.2857,0.0,0.1429,0.4286,2,1,3,0.26
+EMP0273,Marketing,Marketing Manager,Medium,0,81,7,3,2,0,2,2,0,0.4513,0.4286,0.2857,0.0,0.2857,0.2857,0,0,2,0.19
+EMP0274,Operations,Operations Analyst,Low,1,62,7,3,3,0,2,2,0,0.2446,0.4286,0.4286,0.0,0.2857,0.2857,1,1,1,0.38
+EMP0275,Sales,Sales Manager,Low,1,69,7,2,2,0,1,4,0,0.3632,0.2857,0.2857,0.0,0.1429,0.5714,0,0,1,0.31
+EMP0276,Operations,Operations Manager,Low,1,61,7,3,1,0,0,4,0,0.3767,0.4286,0.1429,0.0,0.0,0.5714,0,0,1,0.39
+EMP0277,Information Technology,System Administrator,Privileged,1,53,7,3,2,0,1,4,1,0.3422,0.4286,0.2857,0.0,0.1429,0.5714,2,1,4,0.47
+EMP0278,Executive,Vice President,High,1,98,7,1,1,0,0,6,0,0.1991,0.1429,0.1429,0.0,0.0,0.8571,1,1,3,0.02
+EMP0279,Marketing,Marketing Manager,Medium,0,77,7,6,3,0,1,2,0,0.4392,0.8571,0.4286,0.0,0.1429,0.2857,1,1,2,0.23
+EMP0280,Human Resources,Recruiter,High,1,91,7,0,0,0,0,3,1,0.1191,0.0,0.0,0.0,0.0,0.4286,0,0,3,0.09
+EMP0281,Marketing,Digital Marketing Analyst,Medium,0,81,7,3,1,1,1,4,0,0.3263,0.4286,0.1429,0.1429,0.1429,0.5714,1,1,2,0.19
+EMP0282,Human Resources,HR Specialist,High,1,57,7,3,3,0,1,3,1,0.4621,0.4286,0.4286,0.0,0.1429,0.4286,2,1,3,0.43
+EMP0283,Marketing,Marketing Manager,Medium,1,78,7,1,1,0,0,3,0,0.305,0.1429,0.1429,0.0,0.0,0.4286,1,1,2,0.22
+EMP0284,Operations,Operations Manager,Medium,1,82,7,0,0,0,0,3,0,0.2922,0.0,0.0,0.0,0.0,0.4286,1,1,2,0.18
+EMP0285,Finance,Accountant,Medium,1,80,7,4,1,1,1,3,1,0.2245,0.5714,0.1429,0.1429,0.1429,0.4286,0,0,2,0.2
+EMP0286,Legal,Compliance Analyst,High,1,66,7,0,0,0,0,3,0,0.3333,0.0,0.0,0.0,0.0,0.4286,2,1,3,0.34
+EMP0287,Human Resources,Recruiter,Medium,1,81,7,1,1,0,0,3,1,0.2711,0.1429,0.1429,0.0,0.0,0.4286,0,0,2,0.19
+EMP0288,Executive,Vice President,High,1,89,7,0,0,0,0,5,0,0.2107,0.0,0.0,0.0,0.0,0.7143,1,1,3,0.11
+EMP0289,Sales,Sales Manager,Medium,1,55,7,1,1,0,1,3,0,0.3936,0.1429,0.1429,0.0,0.1429,0.4286,1,1,2,0.45
+EMP0290,Executive,Chief Officer,Privileged,0,62,7,1,1,0,0,2,0,0.35,0.1429,0.1429,0.0,0.0,0.2857,0,0,4,0.38
+EMP0291,Finance,Financial Analyst,High,1,80,7,2,0,1,0,3,1,0.2818,0.2857,0.0,0.1429,0.0,0.4286,0,0,3,0.2
+EMP0292,Information Technology,System Administrator,High,1,68,7,4,1,0,1,2,1,0.2876,0.5714,0.1429,0.0,0.1429,0.2857,0,0,3,0.32
+EMP0293,Executive,Director,High,1,66,7,2,0,1,0,4,0,0.2099,0.2857,0.0,0.1429,0.0,0.5714,1,1,3,0.34
+EMP0294,Sales,Sales Manager,Low,1,90,7,2,1,0,0,4,0,0.2499,0.2857,0.1429,0.0,0.0,0.5714,1,1,1,0.1
+EMP0295,Operations,Operations Manager,Low,1,67,7,1,0,1,0,5,0,0.3552,0.1429,0.0,0.1429,0.0,0.7143,0,0,1,0.33
+EMP0296,Marketing,Marketing Specialist,Low,1,86,7,0,0,0,0,4,0,0.1886,0.0,0.0,0.0,0.0,0.5714,0,0,1,0.14
+EMP0297,Human Resources,Recruiter,Medium,0,100,7,2,1,0,0,1,1,0.1886,0.2857,0.1429,0.0,0.0,0.1429,1,1,2,0.0
+EMP0298,Information Technology,System Administrator,Privileged,1,76,7,1,0,0,0,2,1,0.2766,0.1429,0.0,0.0,0.0,0.2857,1,1,4,0.24
+EMP0299,Operations,Operations Manager,Medium,0,77,7,2,1,0,1,1,0,0.3613,0.2857,0.1429,0.0,0.1429,0.1429,1,1,2,0.23
+EMP0300,Marketing,Digital Marketing Analyst,Medium,1,99,7,0,0,0,0,2,0,0.1632,0.0,0.0,0.0,0.0,0.2857,1,1,2,0.01
+EMP0301,Sales,Account Executive,Low,1,85,7,0,0,0,0,4,0,0.2221,0.0,0.0,0.0,0.0,0.5714,1,1,1,0.15
+EMP0302,Marketing,Marketing Specialist,Low,1,89,7,1,1,0,1,5,0,0.2208,0.1429,0.1429,0.0,0.1429,0.7143,0,0,1,0.11
+EMP0303,Human Resources,Recruiter,High,0,77,7,4,2,1,1,1,1,0.4188,0.5714,0.2857,0.1429,0.1429,0.1429,1,1,3,0.23
+EMP0304,Legal,Legal Manager,High,1,85,7,3,1,1,0,5,0,0.2928,0.4286,0.1429,0.1429,0.0,0.7143,2,1,3,0.15
+EMP0305,Finance,Accountant,High,1,84,7,1,1,0,1,5,1,0.141,0.1429,0.1429,0.0,0.1429,0.7143,1,1,3,0.16
+EMP0306,Executive,Director,Privileged,1,90,7,2,1,0,0,6,0,0.2853,0.2857,0.1429,0.0,0.0,0.8571,2,1,4,0.1
+EMP0307,Executive,Vice President,Privileged,1,83,7,1,0,0,0,3,0,0.2239,0.1429,0.0,0.0,0.0,0.4286,1,1,4,0.17
+EMP0308,Marketing,Digital Marketing Analyst,Medium,1,80,7,2,1,0,1,5,0,0.1941,0.2857,0.1429,0.0,0.1429,0.7143,0,0,2,0.2
+EMP0309,Sales,Sales Manager,Low,0,65,7,3,2,0,1,5,0,0.3462,0.4286,0.2857,0.0,0.1429,0.7143,1,1,1,0.35
+EMP0310,Marketing,Marketing Specialist,Medium,1,90,7,3,1,1,1,4,0,0.423,0.4286,0.1429,0.1429,0.1429,0.5714,1,1,2,0.1
+EMP0311,Finance,Accountant,High,1,78,7,1,0,0,0,3,1,0.2589,0.1429,0.0,0.0,0.0,0.4286,1,1,3,0.22
+EMP0312,Marketing,Digital Marketing Analyst,Low,1,78,7,1,1,0,0,3,0,0.2563,0.1429,0.1429,0.0,0.0,0.4286,0,0,1,0.22
+EMP0313,Executive,Director,High,1,72,7,0,0,0,0,4,0,0.3084,0.0,0.0,0.0,0.0,0.5714,0,0,3,0.28
+EMP0314,Legal,Legal Assistant,High,1,74,7,1,0,0,0,0,0,0.2424,0.1429,0.0,0.0,0.0,0.0,0,0,3,0.26
+EMP0315,Human Resources,HR Manager,High,1,75,7,3,3,0,2,3,1,0.2544,0.4286,0.4286,0.0,0.2857,0.4286,0,0,3,0.25
+EMP0316,Finance,Finance Manager,Medium,1,72,7,3,2,1,1,5,1,0.3174,0.4286,0.2857,0.1429,0.1429,0.7143,0,0,2,0.28
+EMP0317,Marketing,Marketing Manager,Low,1,81,7,1,0,0,0,4,0,0.1907,0.1429,0.0,0.0,0.0,0.5714,0,0,1,0.19
+EMP0318,Human Resources,Recruiter,High,0,88,7,2,0,1,0,4,1,0.3247,0.2857,0.0,0.1429,0.0,0.5714,1,1,3,0.12
+EMP0319,Legal,Legal Manager,High,0,78,7,5,2,1,1,1,0,0.3869,0.7143,0.2857,0.1429,0.1429,0.1429,1,1,3,0.22
+EMP0320,Human Resources,Recruiter,High,1,90,7,0,0,0,0,5,1,0.121,0.0,0.0,0.0,0.0,0.7143,0,0,3,0.1
+EMP0321,Legal,Legal Manager,High,1,71,7,3,2,1,0,3,0,0.2768,0.4286,0.2857,0.1429,0.0,0.4286,1,1,3,0.29
+EMP0322,Finance,Finance Manager,Medium,1,94,7,1,1,0,1,3,1,0.2404,0.1429,0.1429,0.0,0.1429,0.4286,0,0,2,0.06
+EMP0323,Sales,Sales Manager,Medium,1,72,7,3,3,0,1,3,0,0.3695,0.4286,0.4286,0.0,0.1429,0.4286,1,1,2,0.28
+EMP0324,Sales,Sales Manager,Low,1,95,7,2,0,1,0,1,0,0.2226,0.2857,0.0,0.1429,0.0,0.1429,1,1,1,0.05
+EMP0325,Marketing,Marketing Specialist,Low,0,61,7,1,1,0,0,0,0,0.3497,0.1429,0.1429,0.0,0.0,0.0,1,1,1,0.39
+EMP0326,Executive,Director,Privileged,1,66,7,1,0,0,0,5,0,0.1993,0.1429,0.0,0.0,0.0,0.7143,1,1,4,0.34
+EMP0327,Finance,Financial Analyst,High,0,77,7,1,1,0,0,3,1,0.432,0.1429,0.1429,0.0,0.0,0.4286,0,0,3,0.23
+EMP0328,Finance,Accountant,High,1,80,7,3,2,1,1,2,1,0.2503,0.4286,0.2857,0.1429,0.1429,0.2857,0,0,3,0.2
+EMP0329,Legal,Compliance Analyst,Medium,1,89,7,3,1,1,0,2,0,0.223,0.4286,0.1429,0.1429,0.0,0.2857,0,0,2,0.11
+EMP0330,Sales,Sales Manager,Medium,1,75,7,1,1,0,0,5,0,0.2626,0.1429,0.1429,0.0,0.0,0.7143,0,0,2,0.25
+EMP0331,Information Technology,IT Support Analyst,Medium,1,79,7,2,2,0,0,3,1,0.3564,0.2857,0.2857,0.0,0.0,0.4286,2,1,2,0.21
+EMP0332,Human Resources,HR Manager,High,1,83,7,1,0,1,0,2,1,0.2815,0.1429,0.0,0.1429,0.0,0.2857,2,1,3,0.17
+EMP0333,Sales,Account Executive,Low,1,70,7,1,1,0,1,1,0,0.2624,0.1429,0.1429,0.0,0.1429,0.1429,1,1,1,0.3
+EMP0334,Sales,Account Executive,Medium,1,71,7,1,1,0,1,4,0,0.2583,0.1429,0.1429,0.0,0.1429,0.5714,0,0,2,0.29
+EMP0335,Executive,Vice President,High,1,95,7,2,1,1,0,5,0,0.2038,0.2857,0.1429,0.1429,0.0,0.7143,0,0,3,0.05
+EMP0336,Executive,Vice President,High,1,71,7,3,1,1,1,3,0,0.3873,0.4286,0.1429,0.1429,0.1429,0.4286,1,1,3,0.29
+EMP0337,Human Resources,Recruiter,High,1,80,7,3,2,0,1,4,1,0.2729,0.4286,0.2857,0.0,0.1429,0.5714,2,1,3,0.2
+EMP0338,Operations,Operations Manager,Medium,1,59,7,3,1,0,1,0,0,0.3481,0.4286,0.1429,0.0,0.1429,0.0,3,1,2,0.41
+EMP0339,Operations,Operations Specialist,Medium,1,70,7,4,2,1,1,2,0,0.2763,0.5714,0.2857,0.1429,0.1429,0.2857,1,1,2,0.3
+EMP0340,Sales,Account Executive,Medium,1,73,7,2,1,0,0,1,0,0.2814,0.2857,0.1429,0.0,0.0,0.1429,0,0,2,0.27
+EMP0341,Human Resources,HR Specialist,High,1,85,7,0,0,0,0,3,1,0.1679,0.0,0.0,0.0,0.0,0.4286,0,0,3,0.15
+EMP0342,Legal,Legal Manager,High,1,100,7,3,3,0,1,4,0,0.1709,0.4286,0.4286,0.0,0.1429,0.5714,1,1,3,0.0
+EMP0343,Operations,Operations Analyst,Medium,1,77,7,2,1,1,1,3,0,0.2468,0.2857,0.1429,0.1429,0.1429,0.4286,3,1,2,0.23
+EMP0344,Operations,Operations Analyst,Low,1,99,7,2,1,0,0,5,0,0.1933,0.2857,0.1429,0.0,0.0,0.7143,1,1,1,0.01
+EMP0345,Executive,Vice President,High,0,77,7,2,2,0,1,3,0,0.3656,0.2857,0.2857,0.0,0.1429,0.4286,2,1,3,0.23
+EMP0346,Legal,Legal Assistant,Medium,1,92,7,0,0,0,0,4,0,0.1643,0.0,0.0,0.0,0.0,0.5714,0,0,2,0.08
+EMP0347,Operations,Operations Manager,Low,1,86,7,1,1,0,0,4,0,0.0968,0.1429,0.1429,0.0,0.0,0.5714,0,0,1,0.14
+EMP0348,Human Resources,HR Manager,Medium,1,100,7,3,2,0,1,5,1,0.1886,0.4286,0.2857,0.0,0.1429,0.7143,0,0,2,0.0
+EMP0349,Operations,Operations Specialist,Low,1,87,7,2,1,1,1,4,0,0.291,0.2857,0.1429,0.1429,0.1429,0.5714,1,1,1,0.13
+EMP0350,Legal,Legal Manager,Medium,1,84,7,1,0,1,0,3,0,0.2816,0.1429,0.0,0.1429,0.0,0.4286,1,1,2,0.16
+EMP0351,Human Resources,Recruiter,High,1,75,7,1,1,0,0,2,1,0.337,0.1429,0.1429,0.0,0.0,0.2857,1,1,3,0.25
+EMP0352,Marketing,Marketing Specialist,Low,1,79,7,1,0,1,0,2,0,0.1878,0.1429,0.0,0.1429,0.0,0.2857,1,1,1,0.21
+EMP0353,Information Technology,Security Analyst,High,1,78,7,2,2,0,1,2,1,0.3269,0.2857,0.2857,0.0,0.1429,0.2857,0,0,3,0.22
+EMP0354,Operations,Operations Analyst,Medium,1,93,7,2,2,0,2,4,0,0.2541,0.2857,0.2857,0.0,0.2857,0.5714,2,1,2,0.07
+EMP0355,Executive,Vice President,Privileged,1,61,7,0,0,0,0,4,0,0.2879,0.0,0.0,0.0,0.0,0.5714,2,1,4,0.39
+EMP0356,Human Resources,Recruiter,Medium,1,86,7,1,1,0,0,3,1,0.1662,0.1429,0.1429,0.0,0.0,0.4286,1,1,2,0.14
+EMP0357,Information Technology,IT Support Analyst,Privileged,0,80,7,0,0,0,0,3,1,0.2959,0.0,0.0,0.0,0.0,0.4286,2,1,4,0.2
+EMP0358,Marketing,Marketing Manager,Medium,1,96,7,2,1,0,1,5,0,0.2458,0.2857,0.1429,0.0,0.1429,0.7143,1,1,2,0.04
+EMP0359,Human Resources,Recruiter,Medium,1,72,7,3,1,1,0,4,1,0.3551,0.4286,0.1429,0.1429,0.0,0.5714,0,0,2,0.28
+EMP0360,Operations,Operations Manager,Low,1,80,7,3,2,0,1,4,0,0.2734,0.4286,0.2857,0.0,0.1429,0.5714,1,1,1,0.2
+EMP0361,Executive,Vice President,Privileged,1,92,7,3,1,0,0,4,0,0.3051,0.4286,0.1429,0.0,0.0,0.5714,1,1,4,0.08
+EMP0362,Marketing,Marketing Manager,Medium,1,59,7,4,3,1,0,1,0,0.4052,0.5714,0.4286,0.1429,0.0,0.1429,0,0,2,0.41
+EMP0363,Human Resources,HR Manager,Medium,1,71,7,2,2,0,1,2,1,0.3615,0.2857,0.2857,0.0,0.1429,0.2857,0,0,2,0.29
+EMP0364,Executive,Director,Privileged,0,82,7,2,1,0,1,1,0,0.3984,0.2857,0.1429,0.0,0.1429,0.1429,1,1,4,0.18
+EMP0365,Sales,Sales Manager,Low,1,96,7,1,1,0,1,4,0,0.1861,0.1429,0.1429,0.0,0.1429,0.5714,0,0,1,0.04
+EMP0366,Executive,Chief Officer,Privileged,1,77,7,2,1,1,0,3,0,0.3128,0.2857,0.1429,0.1429,0.0,0.4286,0,0,4,0.23
+EMP0367,Marketing,Marketing Specialist,Low,1,60,7,2,1,0,1,1,0,0.2842,0.2857,0.1429,0.0,0.1429,0.1429,0,0,1,0.4
+EMP0368,Finance,Financial Analyst,High,1,51,7,1,1,0,0,3,1,0.2477,0.1429,0.1429,0.0,0.0,0.4286,1,1,3,0.49
+EMP0369,Executive,Director,High,1,80,7,2,1,0,0,3,0,0.1829,0.2857,0.1429,0.0,0.0,0.4286,0,0,3,0.2
+EMP0370,Sales,Sales Manager,Low,1,71,7,3,2,0,1,2,0,0.2828,0.4286,0.2857,0.0,0.1429,0.2857,1,1,1,0.29
+EMP0371,Marketing,Digital Marketing Analyst,Medium,1,85,7,0,0,0,0,3,0,0.23,0.0,0.0,0.0,0.0,0.4286,1,1,2,0.15
+EMP0372,Marketing,Marketing Manager,Low,1,76,7,3,2,0,1,4,0,0.2766,0.4286,0.2857,0.0,0.1429,0.5714,1,1,1,0.24
+EMP0373,Marketing,Marketing Manager,Low,1,77,7,2,1,0,0,2,0,0.2919,0.2857,0.1429,0.0,0.0,0.2857,1,1,1,0.23
+EMP0374,Executive,Chief Officer,Privileged,1,80,7,2,1,0,1,5,0,0.2213,0.2857,0.1429,0.0,0.1429,0.7143,0,0,4,0.2
+EMP0375,Operations,Operations Analyst,Medium,0,62,7,0,0,0,0,2,0,0.3262,0.0,0.0,0.0,0.0,0.2857,2,1,2,0.38
+EMP0376,Sales,Account Executive,Medium,1,95,7,2,1,0,1,2,0,0.3688,0.2857,0.1429,0.0,0.1429,0.2857,1,1,2,0.05
+EMP0377,Sales,Account Executive,Low,1,82,7,0,0,0,0,5,0,0.2649,0.0,0.0,0.0,0.0,0.7143,2,1,1,0.18
+EMP0378,Legal,Legal Manager,High,1,83,7,2,2,0,1,5,0,0.2815,0.2857,0.2857,0.0,0.1429,0.7143,3,1,3,0.17
+EMP0379,Finance,Accountant,High,1,80,7,0,0,0,0,2,1,0.2213,0.0,0.0,0.0,0.0,0.2857,1,1,3,0.2
+EMP0380,Sales,Sales Representative,Medium,1,86,7,1,0,0,0,3,0,0.299,0.1429,0.0,0.0,0.0,0.4286,1,1,2,0.14
+EMP0381,Human Resources,HR Manager,Medium,0,69,7,4,3,1,3,2,1,0.3978,0.5714,0.4286,0.1429,0.4286,0.2857,2,1,2,0.31
+EMP0382,Finance,Financial Analyst,High,1,99,7,3,2,0,1,1,1,0.219,0.4286,0.2857,0.0,0.1429,0.1429,0,0,3,0.01
+EMP0383,Sales,Sales Representative,Low,1,88,7,0,0,0,0,5,0,0.1518,0.0,0.0,0.0,0.0,0.7143,0,0,1,0.12
+EMP0384,Human Resources,HR Manager,Medium,1,70,7,3,2,0,2,3,1,0.2988,0.4286,0.2857,0.0,0.2857,0.4286,0,0,2,0.3
+EMP0385,Sales,Sales Representative,Medium,0,72,7,5,3,1,1,1,0,0.4179,0.7143,0.4286,0.1429,0.1429,0.1429,1,1,2,0.28
+EMP0386,Information Technology,Security Analyst,Medium,1,48,7,5,3,1,2,2,1,0.4305,0.7143,0.4286,0.1429,0.2857,0.2857,2,1,2,0.52
+EMP0387,Operations,Operations Analyst,Low,1,66,7,2,0,1,0,4,0,0.2583,0.2857,0.0,0.1429,0.0,0.5714,2,1,1,0.34
+EMP0388,Operations,Operations Analyst,Low,1,77,7,1,1,0,1,3,0,0.2393,0.1429,0.1429,0.0,0.1429,0.4286,1,1,1,0.23
+EMP0389,Finance,Financial Analyst,Medium,1,96,7,2,0,1,0,3,1,0.1799,0.2857,0.0,0.1429,0.0,0.4286,1,1,2,0.04
+EMP0390,Legal,Legal Assistant,High,0,88,7,1,1,0,0,5,0,0.3687,0.1429,0.1429,0.0,0.0,0.7143,1,1,3,0.12
+EMP0391,Finance,Financial Analyst,High,1,75,7,1,0,0,0,4,1,0.224,0.1429,0.0,0.0,0.0,0.5714,2,1,3,0.25
+EMP0392,Finance,Financial Analyst,High,0,69,7,4,2,0,1,1,1,0.3846,0.5714,0.2857,0.0,0.1429,0.1429,0,0,3,0.31
+EMP0393,Human Resources,HR Manager,Medium,0,99,7,2,1,0,0,5,1,0.3611,0.2857,0.1429,0.0,0.0,0.7143,2,1,2,0.01
+EMP0394,Executive,Vice President,Privileged,1,85,7,2,1,0,0,2,0,0.2718,0.2857,0.1429,0.0,0.0,0.2857,0,0,4,0.15
+EMP0395,Human Resources,Recruiter,Medium,0,94,7,4,2,0,1,4,1,0.2598,0.5714,0.2857,0.0,0.1429,0.5714,1,1,2,0.06
+EMP0396,Finance,Finance Manager,High,1,89,7,0,0,0,0,4,1,0.1719,0.0,0.0,0.0,0.0,0.5714,2,1,3,0.11
+EMP0397,Executive,Chief Officer,High,1,86,7,2,2,0,0,4,0,0.2991,0.2857,0.2857,0.0,0.0,0.5714,2,1,3,0.14
+EMP0398,Finance,Accountant,High,1,82,7,2,1,0,0,6,1,0.2635,0.2857,0.1429,0.0,0.0,0.8571,1,1,3,0.18
+EMP0399,Marketing,Marketing Manager,Low,1,93,7,0,0,0,0,4,0,0.1592,0.0,0.0,0.0,0.0,0.5714,1,1,1,0.07
+EMP0400,Executive,Chief Officer,Privileged,1,80,7,2,2,0,1,3,0,0.3473,0.2857,0.2857,0.0,0.1429,0.4286,1,1,4,0.2
+EMP0401,Human Resources,HR Specialist,High,1,70,7,2,1,0,0,4,1,0.3601,0.2857,0.1429,0.0,0.0,0.5714,2,1,3,0.3
+EMP0402,Information Technology,IT Support Analyst,Medium,1,72,7,2,1,0,0,5,1,0.3023,0.2857,0.1429,0.0,0.0,0.7143,0,0,2,0.28
+EMP0403,Operations,Operations Manager,Medium,1,84,7,1,0,0,0,5,0,0.2329,0.1429,0.0,0.0,0.0,0.7143,1,1,2,0.16
+EMP0404,Marketing,Marketing Manager,Medium,1,71,7,3,2,0,1,2,0,0.2065,0.4286,0.2857,0.0,0.1429,0.2857,0,0,2,0.29
+EMP0405,Executive,Chief Officer,Privileged,1,78,7,0,0,0,0,6,0,0.2515,0.0,0.0,0.0,0.0,0.8571,0,0,4,0.22
+EMP0406,Human Resources,HR Manager,Medium,1,79,7,2,1,0,1,3,1,0.2353,0.2857,0.1429,0.0,0.1429,0.4286,0,0,2,0.21
+EMP0407,Sales,Account Executive,Medium,0,74,7,3,1,0,1,2,0,0.4132,0.4286,0.1429,0.0,0.1429,0.2857,2,1,2,0.26
+EMP0408,Sales,Account Executive,Medium,1,57,7,2,1,0,1,3,0,0.2851,0.2857,0.1429,0.0,0.1429,0.4286,1,1,2,0.43
+EMP0409,Executive,Vice President,Privileged,1,63,7,2,1,0,0,3,0,0.3876,0.2857,0.1429,0.0,0.0,0.4286,0,0,4,0.37
+EMP0410,Human Resources,Recruiter,High,0,60,7,4,3,1,2,4,1,0.4774,0.5714,0.4286,0.1429,0.2857,0.5714,2,1,3,0.4
+EMP0411,Legal,Legal Manager,High,1,98,7,1,1,0,0,5,0,0.2601,0.1429,0.1429,0.0,0.0,0.7143,2,1,3,0.02
+EMP0412,Legal,Legal Assistant,High,1,72,7,3,1,1,1,5,0,0.3114,0.4286,0.1429,0.1429,0.1429,0.7143,0,0,3,0.28
+EMP0413,Human Resources,HR Specialist,Medium,1,85,7,2,2,0,2,5,1,0.2276,0.2857,0.2857,0.0,0.2857,0.7143,2,1,2,0.15
+EMP0414,Human Resources,Recruiter,Medium,1,59,7,3,0,0,0,3,1,0.323,0.4286,0.0,0.0,0.0,0.4286,1,1,2,0.41
+EMP0415,Legal,Legal Assistant,Medium,1,70,7,3,2,1,0,4,0,0.3437,0.4286,0.2857,0.1429,0.0,0.5714,1,1,2,0.3
+EMP0416,Legal,Legal Manager,Medium,1,82,7,4,2,1,2,1,0,0.384,0.5714,0.2857,0.1429,0.2857,0.1429,1,1,2,0.18
+EMP0417,Marketing,Digital Marketing Analyst,Medium,1,77,7,2,0,0,0,4,0,0.3197,0.2857,0.0,0.0,0.0,0.5714,0,0,2,0.23
+EMP0418,Finance,Accountant,High,1,92,7,1,0,0,0,5,1,0.1542,0.1429,0.0,0.0,0.0,0.7143,3,1,3,0.08
+EMP0419,Legal,Legal Assistant,Medium,1,91,7,2,1,0,0,4,0,0.2226,0.2857,0.1429,0.0,0.0,0.5714,1,1,2,0.09
+EMP0420,Information Technology,Security Analyst,High,1,57,7,3,1,0,1,3,1,0.4259,0.4286,0.1429,0.0,0.1429,0.4286,1,1,3,0.43
+EMP0421,Sales,Sales Representative,Medium,1,62,7,5,3,0,2,2,0,0.3352,0.7143,0.4286,0.0,0.2857,0.2857,3,1,2,0.38
+EMP0422,Legal,Legal Assistant,High,0,91,7,0,0,0,0,1,0,0.236,0.0,0.0,0.0,0.0,0.1429,0,0,3,0.09
+EMP0423,Sales,Account Executive,Low,1,78,7,2,1,0,1,2,0,0.2873,0.2857,0.1429,0.0,0.1429,0.2857,0,0,1,0.22
+EMP0424,Operations,Operations Analyst,Low,1,62,7,4,3,0,3,4,0,0.4542,0.5714,0.4286,0.0,0.4286,0.5714,2,1,1,0.38
+EMP0425,Operations,Operations Manager,Medium,1,96,7,4,3,0,3,4,0,0.2503,0.5714,0.4286,0.0,0.4286,0.5714,1,1,2,0.04
+EMP0426,Legal,Compliance Analyst,Medium,1,88,7,1,1,0,0,4,0,0.2428,0.1429,0.1429,0.0,0.0,0.5714,0,0,2,0.12
+EMP0427,Information Technology,IT Support Analyst,Privileged,1,74,7,2,1,0,0,4,1,0.3647,0.2857,0.1429,0.0,0.0,0.5714,2,1,4,0.26
+EMP0428,Marketing,Marketing Specialist,Low,1,100,7,1,0,0,0,2,0,0.255,0.1429,0.0,0.0,0.0,0.2857,1,1,1,0.0
+EMP0429,Finance,Financial Analyst,Medium,1,74,7,2,2,0,1,4,1,0.32,0.2857,0.2857,0.0,0.1429,0.5714,0,0,2,0.26
+EMP0430,Marketing,Digital Marketing Analyst,Medium,0,75,7,3,1,0,1,1,0,0.3839,0.4286,0.1429,0.0,0.1429,0.1429,0,0,2,0.25
+EMP0431,Legal,Legal Assistant,High,1,86,7,1,1,0,0,5,0,0.2967,0.1429,0.1429,0.0,0.0,0.7143,0,0,3,0.14
+EMP0432,Operations,Operations Manager,Medium,1,77,7,1,0,0,0,4,0,0.3095,0.1429,0.0,0.0,0.0,0.5714,0,0,2,0.23
+EMP0433,Human Resources,HR Specialist,Medium,0,88,7,2,1,0,0,2,1,0.4581,0.2857,0.1429,0.0,0.0,0.2857,2,1,2,0.12
+EMP0434,Information Technology,Security Analyst,Medium,1,82,7,1,0,0,0,5,1,0.2689,0.1429,0.0,0.0,0.0,0.7143,0,0,2,0.18
+EMP0435,Human Resources,Recruiter,High,1,91,7,1,1,0,0,3,1,0.2033,0.1429,0.1429,0.0,0.0,0.4286,3,1,3,0.09
+EMP0436,Marketing,Digital Marketing Analyst,Medium,1,65,7,4,2,1,0,2,0,0.4204,0.5714,0.2857,0.1429,0.0,0.2857,1,1,2,0.35
+EMP0437,Marketing,Digital Marketing Analyst,Low,0,70,7,3,1,0,1,1,0,0.4196,0.4286,0.1429,0.0,0.1429,0.1429,0,0,1,0.3
+EMP0438,Human Resources,Recruiter,High,1,100,7,1,0,0,0,3,1,0.2481,0.1429,0.0,0.0,0.0,0.4286,0,0,3,0.0
+EMP0439,Human Resources,Recruiter,High,1,79,7,1,1,0,1,3,1,0.3039,0.1429,0.1429,0.0,0.1429,0.4286,0,0,3,0.21
+EMP0440,Operations,Operations Analyst,Low,1,82,7,2,2,0,1,3,0,0.1856,0.2857,0.2857,0.0,0.1429,0.4286,2,1,1,0.18
+EMP0441,Marketing,Marketing Manager,Low,1,91,7,1,0,0,0,4,0,0.1177,0.1429,0.0,0.0,0.0,0.5714,1,1,1,0.09
+EMP0442,Finance,Financial Analyst,High,1,92,7,2,0,0,0,4,1,0.1714,0.2857,0.0,0.0,0.0,0.5714,0,0,3,0.08
+EMP0443,Sales,Sales Representative,Medium,1,81,7,1,0,1,0,2,0,0.2791,0.1429,0.0,0.1429,0.0,0.2857,0,0,2,0.19
+EMP0444,Operations,Operations Specialist,Low,0,68,7,3,1,0,0,2,0,0.2752,0.4286,0.1429,0.0,0.0,0.2857,1,1,1,0.32
+EMP0445,Finance,Accountant,High,1,81,7,1,1,0,0,3,1,0.1442,0.1429,0.1429,0.0,0.0,0.4286,1,1,3,0.19
+EMP0446,Information Technology,IT Support Analyst,High,1,83,7,1,0,0,0,4,1,0.2852,0.1429,0.0,0.0,0.0,0.5714,0,0,3,0.17
+EMP0447,Sales,Sales Manager,Medium,1,92,7,0,0,0,0,4,0,0.2366,0.0,0.0,0.0,0.0,0.5714,3,1,2,0.08
+EMP0448,Human Resources,Recruiter,Medium,1,63,7,2,1,1,1,5,1,0.2877,0.2857,0.1429,0.1429,0.1429,0.7143,1,1,2,0.37
+EMP0449,Marketing,Marketing Specialist,Medium,1,76,7,2,0,1,0,4,0,0.1566,0.2857,0.0,0.1429,0.0,0.5714,1,1,2,0.24
+EMP0450,Human Resources,Recruiter,High,0,79,7,3,2,1,1,4,1,0.3788,0.4286,0.2857,0.1429,0.1429,0.5714,0,0,3,0.21
+EMP0451,Marketing,Marketing Manager,Medium,1,97,7,1,0,0,0,5,0,0.2307,0.1429,0.0,0.0,0.0,0.7143,2,1,2,0.03
+EMP0452,Operations,Operations Analyst,Medium,1,67,7,3,1,0,1,6,0,0.2662,0.4286,0.1429,0.0,0.1429,0.8571,1,1,2,0.33
+EMP0453,Finance,Accountant,Medium,1,97,7,1,0,0,0,6,1,0.1622,0.1429,0.0,0.0,0.0,0.8571,1,1,2,0.03
+EMP0454,Executive,Chief Officer,Privileged,1,90,7,1,1,0,1,4,0,0.3669,0.1429,0.1429,0.0,0.1429,0.5714,1,1,4,0.1
+EMP0455,Human Resources,Recruiter,Medium,1,48,7,1,1,0,1,3,1,0.4808,0.1429,0.1429,0.0,0.1429,0.4286,1,1,2,0.52
+EMP0456,Sales,Account Executive,Medium,1,100,7,2,1,0,0,4,0,0.1483,0.2857,0.1429,0.0,0.0,0.5714,0,0,2,0.0
+EMP0457,Human Resources,Recruiter,High,1,90,7,1,1,0,1,5,1,0.2312,0.1429,0.1429,0.0,0.1429,0.7143,0,0,3,0.1
+EMP0458,Legal,Legal Assistant,High,1,100,7,0,0,0,0,5,0,0.1562,0.0,0.0,0.0,0.0,0.7143,0,0,3,0.0
+EMP0459,Information Technology,IT Support Analyst,Privileged,1,87,7,1,0,1,0,3,1,0.1929,0.1429,0.0,0.1429,0.0,0.4286,0,0,4,0.13
+EMP0460,Human Resources,HR Manager,Medium,1,81,7,1,0,1,0,5,1,0.2947,0.1429,0.0,0.1429,0.0,0.7143,0,0,2,0.19
+EMP0461,Legal,Compliance Analyst,Medium,1,68,7,2,1,0,1,4,0,0.2476,0.2857,0.1429,0.0,0.1429,0.5714,0,0,2,0.32
+EMP0462,Sales,Sales Representative,Low,1,74,7,3,2,1,0,4,0,0.3181,0.4286,0.2857,0.1429,0.0,0.5714,1,1,1,0.26
+EMP0463,Operations,Operations Analyst,Low,1,80,7,3,2,0,1,5,0,0.3309,0.4286,0.2857,0.0,0.1429,0.7143,1,1,1,0.2
+EMP0464,Information Technology,Security Analyst,Medium,1,94,7,1,1,0,1,4,1,0.1594,0.1429,0.1429,0.0,0.1429,0.5714,1,1,2,0.06
+EMP0465,Information Technology,Security Analyst,High,1,66,7,4,3,0,2,3,1,0.3783,0.5714,0.4286,0.0,0.2857,0.4286,2,1,3,0.34
+EMP0466,Executive,Chief Officer,Privileged,1,75,7,2,2,0,0,4,0,0.3342,0.2857,0.2857,0.0,0.0,0.5714,1,1,4,0.25
+EMP0467,Legal,Legal Manager,High,1,70,7,2,2,0,0,4,0,0.2577,0.2857,0.2857,0.0,0.0,0.5714,2,1,3,0.3
+EMP0468,Information Technology,System Administrator,Medium,1,81,7,2,2,0,1,3,1,0.2382,0.2857,0.2857,0.0,0.1429,0.4286,1,1,2,0.19
+EMP0469,Executive,Vice President,Privileged,1,80,7,2,1,1,1,3,0,0.2241,0.2857,0.1429,0.1429,0.1429,0.4286,0,0,4,0.2
+EMP0470,Operations,Operations Manager,Low,1,94,7,1,1,0,1,3,0,0.1799,0.1429,0.1429,0.0,0.1429,0.4286,1,1,1,0.06
+EMP0471,Legal,Legal Manager,Medium,1,78,7,1,1,0,1,5,0,0.3704,0.1429,0.1429,0.0,0.1429,0.7143,0,0,2,0.22
+EMP0472,Operations,Operations Specialist,Medium,1,78,7,2,2,0,2,3,0,0.245,0.2857,0.2857,0.0,0.2857,0.4286,1,1,2,0.22
+EMP0473,Finance,Financial Analyst,High,1,63,7,3,3,0,1,3,1,0.2943,0.4286,0.4286,0.0,0.1429,0.4286,1,1,3,0.37
+EMP0474,Operations,Operations Analyst,Low,1,69,7,2,1,0,0,2,0,0.3309,0.2857,0.1429,0.0,0.0,0.2857,1,1,1,0.31
+EMP0475,Marketing,Digital Marketing Analyst,Low,1,69,7,0,0,0,0,2,0,0.2879,0.0,0.0,0.0,0.0,0.2857,1,1,1,0.31
+EMP0476,Executive,Chief Officer,High,1,81,7,1,1,0,1,5,0,0.3031,0.1429,0.1429,0.0,0.1429,0.7143,1,1,3,0.19
+EMP0477,Legal,Legal Manager,High,1,85,7,1,1,0,1,3,0,0.2964,0.1429,0.1429,0.0,0.1429,0.4286,0,0,3,0.15
+EMP0478,Information Technology,IT Support Analyst,High,0,82,7,2,2,0,0,3,1,0.4209,0.2857,0.2857,0.0,0.0,0.4286,0,0,3,0.18
+EMP0479,Human Resources,Recruiter,Medium,1,89,7,4,1,0,1,4,1,0.3452,0.5714,0.1429,0.0,0.1429,0.5714,3,1,2,0.11
+EMP0480,Information Technology,IT Support Analyst,Medium,1,100,7,1,1,0,1,4,1,0.1594,0.1429,0.1429,0.0,0.1429,0.5714,0,0,2,0.0
+EMP0481,Executive,Vice President,High,1,68,7,1,1,0,1,3,0,0.2254,0.1429,0.1429,0.0,0.1429,0.4286,0,0,3,0.32
+EMP0482,Legal,Compliance Analyst,High,1,97,7,3,2,0,2,4,0,0.1978,0.4286,0.2857,0.0,0.2857,0.5714,1,1,3,0.03
+EMP0483,Marketing,Digital Marketing Analyst,Medium,1,84,7,3,1,1,0,6,0,0.2821,0.4286,0.1429,0.1429,0.0,0.8571,2,1,2,0.16
+EMP0484,Finance,Finance Manager,High,0,97,7,2,1,0,0,5,1,0.2801,0.2857,0.1429,0.0,0.0,0.7143,1,1,3,0.03
+EMP0485,Human Resources,Recruiter,Medium,1,71,7,2,1,1,1,2,1,0.2782,0.2857,0.1429,0.1429,0.1429,0.2857,0,0,2,0.29
+EMP0486,Marketing,Digital Marketing Analyst,Medium,1,65,7,2,1,0,0,3,0,0.3586,0.2857,0.1429,0.0,0.0,0.4286,1,1,2,0.35
+EMP0487,Information Technology,System Administrator,Medium,1,80,7,1,1,0,1,4,1,0.2755,0.1429,0.1429,0.0,0.1429,0.5714,0,0,2,0.2
+EMP0488,Information Technology,System Administrator,High,1,59,7,3,2,0,1,4,1,0.3868,0.4286,0.2857,0.0,0.1429,0.5714,1,1,3,0.41
+EMP0489,Marketing,Marketing Specialist,Low,1,92,7,2,1,0,1,4,0,0.3207,0.2857,0.1429,0.0,0.1429,0.5714,1,1,1,0.08
+EMP0490,Operations,Operations Manager,Medium,1,63,7,4,2,1,2,1,0,0.3946,0.5714,0.2857,0.1429,0.2857,0.1429,0,0,2,0.37
+EMP0491,Legal,Legal Assistant,Medium,1,69,7,3,2,1,1,2,0,0.2914,0.4286,0.2857,0.1429,0.1429,0.2857,1,1,2,0.31
+EMP0492,Marketing,Marketing Manager,Medium,1,77,7,1,0,0,0,3,0,0.2551,0.1429,0.0,0.0,0.0,0.4286,2,1,2,0.23
+EMP0493,Finance,Accountant,High,1,80,7,3,3,0,2,2,1,0.2337,0.4286,0.4286,0.0,0.2857,0.2857,0,0,3,0.2
+EMP0494,Information Technology,IT Support Analyst,High,1,61,7,5,3,1,0,1,1,0.4422,0.7143,0.4286,0.1429,0.0,0.1429,0,0,3,0.39
+EMP0495,Executive,Director,High,1,91,7,2,2,0,1,5,0,0.2743,0.2857,0.2857,0.0,0.1429,0.7143,1,1,3,0.09
+EMP0496,Information Technology,IT Support Analyst,Medium,1,85,7,2,2,0,1,1,1,0.311,0.2857,0.2857,0.0,0.1429,0.1429,2,1,2,0.15
+EMP0497,Operations,Operations Analyst,Low,1,92,7,0,0,0,0,4,0,0.1682,0.0,0.0,0.0,0.0,0.5714,1,1,1,0.08
+EMP0498,Legal,Legal Manager,Medium,1,79,7,1,1,0,0,5,0,0.2872,0.1429,0.1429,0.0,0.0,0.7143,0,0,2,0.21
+EMP0499,Marketing,Marketing Specialist,Low,1,79,7,0,0,0,0,4,0,0.2048,0.0,0.0,0.0,0.0,0.5714,2,1,1,0.21
+EMP0500,Information Technology,Security Analyst,Privileged,1,76,7,3,2,0,2,3,1,0.2504,0.4286,0.2857,0.0,0.2857,0.4286,1,1,4,0.24

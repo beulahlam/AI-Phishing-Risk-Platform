@@ -1,0 +1,15 @@
+{
+    "model": "RandomForestClassifier",
+    "target": "future_phishing_failure",
+    "training_examples": 400,
+    "testing_examples": 100,
+    "accuracy": 0.54,
+    "precision": 0.7,
+    "recall": 0.5303030303030303,
+    "f1_score": 0.603448275862069,
+    "roc_auc": 0.5441176470588235,
+    "true_negatives": 19,
+    "false_positives": 15,
+    "false_negatives": 31,
+    "true_positives": 35
+}

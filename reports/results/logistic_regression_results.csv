@@ -1,0 +1,2 @@
+model,naive_baseline_accuracy,accuracy,precision,recall,f1_score,roc_auc,true_negatives,false_positives,false_negatives,true_positives
+Logistic Regression,0.66,0.45,0.6122,0.4545,0.5217,0.4046,15,19,36,30

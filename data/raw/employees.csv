@@ -1,0 +1,501 @@
+employee_id,company,department,role,privilege_level,years_with_company,security_training_completed,previous_training_score
+EMP0001,NovaCore Financial Services,Human Resources,HR Specialist,High,5.7,1,85
+EMP0002,NovaCore Financial Services,Sales,Sales Representative,Low,2.5,1,96
+EMP0003,NovaCore Financial Services,Human Resources,HR Manager,Medium,1.1,1,96
+EMP0004,NovaCore Financial Services,Marketing,Marketing Specialist,Low,0.5,1,87
+EMP0005,NovaCore Financial Services,Human Resources,HR Specialist,Medium,12.5,1,72
+EMP0006,NovaCore Financial Services,Finance,Finance Manager,Medium,4.7,1,72
+EMP0007,NovaCore Financial Services,Marketing,Marketing Specialist,Medium,6.6,1,65
+EMP0008,NovaCore Financial Services,Operations,Operations Analyst,Low,4.5,1,81
+EMP0009,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,6.9,1,78
+EMP0010,NovaCore Financial Services,Information Technology,IT Support Analyst,High,9.0,0,60
+EMP0011,NovaCore Financial Services,Human Resources,HR Specialist,High,9.2,1,70
+EMP0012,NovaCore Financial Services,Human Resources,Recruiter,High,10.3,1,74
+EMP0013,NovaCore Financial Services,Operations,Operations Analyst,Medium,2.0,1,87
+EMP0014,NovaCore Financial Services,Human Resources,Recruiter,Medium,4.8,1,63
+EMP0015,NovaCore Financial Services,Operations,Operations Manager,Medium,8.3,1,86
+EMP0016,NovaCore Financial Services,Sales,Sales Manager,Low,1.5,1,80
+EMP0017,NovaCore Financial Services,Finance,Finance Manager,Medium,0.9,1,60
+EMP0018,NovaCore Financial Services,Operations,Operations Analyst,Low,12.5,1,69
+EMP0019,NovaCore Financial Services,Human Resources,Recruiter,High,4.4,1,81
+EMP0020,NovaCore Financial Services,Executive,Chief Officer,Privileged,1.3,1,73
+EMP0021,NovaCore Financial Services,Information Technology,System Administrator,High,11.6,1,90
+EMP0022,NovaCore Financial Services,Sales,Sales Manager,Medium,11.6,0,89
+EMP0023,NovaCore Financial Services,Human Resources,HR Manager,Medium,5.5,0,81
+EMP0024,NovaCore Financial Services,Sales,Sales Representative,Medium,5.1,0,89
+EMP0025,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Low,4.8,1,87
+EMP0026,NovaCore Financial Services,Legal,Legal Assistant,Medium,13.3,1,94
+EMP0027,NovaCore Financial Services,Finance,Accountant,High,2.0,1,82
+EMP0028,NovaCore Financial Services,Operations,Operations Analyst,Low,11.6,1,96
+EMP0029,NovaCore Financial Services,Legal,Legal Assistant,High,7.9,1,79
+EMP0030,NovaCore Financial Services,Marketing,Marketing Manager,Medium,4.9,1,74
+EMP0031,NovaCore Financial Services,Information Technology,System Administrator,Medium,13.6,1,95
+EMP0032,NovaCore Financial Services,Sales,Sales Manager,Medium,3.6,0,71
+EMP0033,NovaCore Financial Services,Marketing,Marketing Manager,Medium,4.5,1,88
+EMP0034,NovaCore Financial Services,Legal,Legal Assistant,Medium,12.1,1,81
+EMP0035,NovaCore Financial Services,Executive,Director,High,13.4,1,69
+EMP0036,NovaCore Financial Services,Human Resources,HR Specialist,Medium,3.6,1,74
+EMP0037,NovaCore Financial Services,Marketing,Marketing Manager,Low,12.3,1,78
+EMP0038,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,6.4,1,75
+EMP0039,NovaCore Financial Services,Operations,Operations Manager,Low,2.0,1,76
+EMP0040,NovaCore Financial Services,Human Resources,HR Manager,High,7.9,1,82
+EMP0041,NovaCore Financial Services,Legal,Legal Assistant,High,5.6,1,54
+EMP0042,NovaCore Financial Services,Marketing,Marketing Specialist,Medium,4.4,0,77
+EMP0043,NovaCore Financial Services,Finance,Finance Manager,High,9.2,1,75
+EMP0044,NovaCore Financial Services,Information Technology,Security Analyst,Medium,2.3,1,81
+EMP0045,NovaCore Financial Services,Operations,Operations Manager,Low,14.8,1,91
+EMP0046,NovaCore Financial Services,Information Technology,System Administrator,Medium,3.7,1,87
+EMP0047,NovaCore Financial Services,Finance,Finance Manager,High,5.6,1,85
+EMP0048,NovaCore Financial Services,Executive,Director,High,1.5,1,100
+EMP0049,NovaCore Financial Services,Legal,Compliance Analyst,Medium,4.9,1,79
+EMP0050,NovaCore Financial Services,Finance,Financial Analyst,Medium,10.2,0,71
+EMP0051,NovaCore Financial Services,Human Resources,HR Manager,High,7.8,1,65
+EMP0052,NovaCore Financial Services,Human Resources,HR Manager,Medium,10.4,1,83
+EMP0053,NovaCore Financial Services,Information Technology,Security Analyst,High,14.1,0,68
+EMP0054,NovaCore Financial Services,Information Technology,System Administrator,Privileged,13.9,1,74
+EMP0055,NovaCore Financial Services,Marketing,Marketing Specialist,Low,4.0,1,80
+EMP0056,NovaCore Financial Services,Operations,Operations Specialist,Medium,8.0,1,93
+EMP0057,NovaCore Financial Services,Executive,Chief Officer,Privileged,1.6,1,81
+EMP0058,NovaCore Financial Services,Human Resources,HR Specialist,Medium,5.2,1,87
+EMP0059,NovaCore Financial Services,Human Resources,Recruiter,Medium,10.9,1,81
+EMP0060,NovaCore Financial Services,Sales,Sales Manager,Low,9.7,0,82
+EMP0061,NovaCore Financial Services,Finance,Financial Analyst,Medium,2.6,1,81
+EMP0062,NovaCore Financial Services,Sales,Sales Representative,Low,0.3,1,69
+EMP0063,NovaCore Financial Services,Legal,Legal Assistant,Medium,8.3,1,63
+EMP0064,NovaCore Financial Services,Operations,Operations Manager,Medium,10.7,1,85
+EMP0065,NovaCore Financial Services,Sales,Sales Manager,Low,5.0,1,89
+EMP0066,NovaCore Financial Services,Executive,Director,Privileged,9.9,1,82
+EMP0067,NovaCore Financial Services,Marketing,Marketing Specialist,Low,1.6,1,67
+EMP0068,NovaCore Financial Services,Human Resources,HR Manager,High,14.6,1,68
+EMP0069,NovaCore Financial Services,Legal,Compliance Analyst,High,13.4,1,78
+EMP0070,NovaCore Financial Services,Executive,Chief Officer,High,8.7,1,95
+EMP0071,NovaCore Financial Services,Human Resources,HR Specialist,High,3.1,1,65
+EMP0072,NovaCore Financial Services,Legal,Legal Assistant,Medium,14.1,1,83
+EMP0073,NovaCore Financial Services,Sales,Sales Representative,Medium,13.7,1,83
+EMP0074,NovaCore Financial Services,Information Technology,System Administrator,Medium,14.5,1,77
+EMP0075,NovaCore Financial Services,Operations,Operations Specialist,Low,4.6,1,72
+EMP0076,NovaCore Financial Services,Human Resources,Recruiter,Medium,2.7,1,88
+EMP0077,NovaCore Financial Services,Finance,Finance Manager,Medium,14.1,1,67
+EMP0078,NovaCore Financial Services,Human Resources,HR Specialist,Medium,9.3,1,79
+EMP0079,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,2.3,1,82
+EMP0080,NovaCore Financial Services,Sales,Account Executive,Low,10.5,1,84
+EMP0081,NovaCore Financial Services,Information Technology,System Administrator,Medium,5.5,1,84
+EMP0082,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,13.0,1,84
+EMP0083,NovaCore Financial Services,Operations,Operations Specialist,Medium,7.8,1,84
+EMP0084,NovaCore Financial Services,Information Technology,IT Support Analyst,High,10.6,1,91
+EMP0085,NovaCore Financial Services,Sales,Sales Representative,Low,13.4,1,68
+EMP0086,NovaCore Financial Services,Legal,Legal Assistant,Medium,8.8,0,75
+EMP0087,NovaCore Financial Services,Executive,Chief Officer,High,7.1,1,86
+EMP0088,NovaCore Financial Services,Finance,Finance Manager,Medium,0.7,0,58
+EMP0089,NovaCore Financial Services,Information Technology,IT Support Analyst,Privileged,12.4,1,78
+EMP0090,NovaCore Financial Services,Human Resources,HR Manager,Medium,11.6,1,65
+EMP0091,NovaCore Financial Services,Marketing,Marketing Specialist,Low,9.4,0,78
+EMP0092,NovaCore Financial Services,Finance,Finance Manager,Medium,8.2,1,70
+EMP0093,NovaCore Financial Services,Marketing,Marketing Manager,Medium,10.9,1,53
+EMP0094,NovaCore Financial Services,Operations,Operations Analyst,Medium,12.0,1,80
+EMP0095,NovaCore Financial Services,Sales,Account Executive,Medium,6.7,0,84
+EMP0096,NovaCore Financial Services,Information Technology,Security Analyst,Privileged,6.3,1,88
+EMP0097,NovaCore Financial Services,Operations,Operations Specialist,Medium,2.5,1,99
+EMP0098,NovaCore Financial Services,Human Resources,HR Specialist,High,10.0,1,82
+EMP0099,NovaCore Financial Services,Human Resources,HR Specialist,Medium,14.3,1,100
+EMP0100,NovaCore Financial Services,Operations,Operations Analyst,Medium,6.4,1,90
+EMP0101,NovaCore Financial Services,Human Resources,HR Specialist,High,5.5,1,83
+EMP0102,NovaCore Financial Services,Operations,Operations Analyst,Medium,7.2,0,87
+EMP0103,NovaCore Financial Services,Operations,Operations Manager,Low,7.5,1,74
+EMP0104,NovaCore Financial Services,Operations,Operations Manager,Low,6.1,1,63
+EMP0105,NovaCore Financial Services,Information Technology,System Administrator,Medium,9.6,0,95
+EMP0106,NovaCore Financial Services,Human Resources,HR Manager,Medium,7.6,1,60
+EMP0107,NovaCore Financial Services,Operations,Operations Specialist,Low,9.9,1,80
+EMP0108,NovaCore Financial Services,Legal,Legal Assistant,High,0.6,1,70
+EMP0109,NovaCore Financial Services,Executive,Vice President,High,14.1,1,97
+EMP0110,NovaCore Financial Services,Human Resources,HR Manager,High,7.0,1,63
+EMP0111,NovaCore Financial Services,Operations,Operations Analyst,Low,14.1,1,81
+EMP0112,NovaCore Financial Services,Legal,Legal Assistant,High,1.3,1,70
+EMP0113,NovaCore Financial Services,Information Technology,Security Analyst,High,12.7,0,70
+EMP0114,NovaCore Financial Services,Marketing,Marketing Manager,Low,1.9,1,88
+EMP0115,NovaCore Financial Services,Human Resources,HR Specialist,Medium,9.5,1,87
+EMP0116,NovaCore Financial Services,Finance,Accountant,Medium,4.4,1,85
+EMP0117,NovaCore Financial Services,Marketing,Marketing Specialist,Low,11.3,1,77
+EMP0118,NovaCore Financial Services,Operations,Operations Specialist,Low,5.7,1,79
+EMP0119,NovaCore Financial Services,Legal,Legal Assistant,Medium,5.2,1,75
+EMP0120,NovaCore Financial Services,Human Resources,Recruiter,High,11.3,1,91
+EMP0121,NovaCore Financial Services,Information Technology,IT Support Analyst,Medium,1.7,1,93
+EMP0122,NovaCore Financial Services,Information Technology,System Administrator,Medium,4.9,1,78
+EMP0123,NovaCore Financial Services,Information Technology,Security Analyst,High,6.0,0,81
+EMP0124,NovaCore Financial Services,Marketing,Marketing Manager,Low,14.3,1,76
+EMP0125,NovaCore Financial Services,Operations,Operations Analyst,Low,9.6,1,65
+EMP0126,NovaCore Financial Services,Marketing,Marketing Specialist,Medium,10.2,1,63
+EMP0127,NovaCore Financial Services,Sales,Sales Representative,Medium,11.9,1,77
+EMP0128,NovaCore Financial Services,Legal,Compliance Analyst,Medium,1.1,1,67
+EMP0129,NovaCore Financial Services,Sales,Sales Representative,Low,6.7,1,68
+EMP0130,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,2.3,1,74
+EMP0131,NovaCore Financial Services,Human Resources,Recruiter,High,9.3,0,80
+EMP0132,NovaCore Financial Services,Marketing,Marketing Manager,Medium,1.3,1,71
+EMP0133,NovaCore Financial Services,Finance,Financial Analyst,High,10.7,0,60
+EMP0134,NovaCore Financial Services,Information Technology,Security Analyst,High,12.2,1,61
+EMP0135,NovaCore Financial Services,Finance,Financial Analyst,High,14.8,1,69
+EMP0136,NovaCore Financial Services,Legal,Legal Manager,High,11.7,1,75
+EMP0137,NovaCore Financial Services,Marketing,Marketing Manager,Low,6.5,1,77
+EMP0138,NovaCore Financial Services,Marketing,Marketing Manager,Low,0.4,1,65
+EMP0139,NovaCore Financial Services,Operations,Operations Analyst,Medium,1.0,0,81
+EMP0140,NovaCore Financial Services,Finance,Finance Manager,Medium,11.2,1,68
+EMP0141,NovaCore Financial Services,Legal,Compliance Analyst,Medium,14.4,1,86
+EMP0142,NovaCore Financial Services,Legal,Legal Manager,High,3.5,1,73
+EMP0143,NovaCore Financial Services,Human Resources,HR Manager,High,0.4,1,80
+EMP0144,NovaCore Financial Services,Operations,Operations Manager,Medium,1.3,1,78
+EMP0145,NovaCore Financial Services,Legal,Compliance Analyst,High,14.5,1,95
+EMP0146,NovaCore Financial Services,Information Technology,IT Support Analyst,High,6.9,1,89
+EMP0147,NovaCore Financial Services,Marketing,Marketing Manager,Low,8.8,1,100
+EMP0148,NovaCore Financial Services,Operations,Operations Specialist,Low,4.3,1,68
+EMP0149,NovaCore Financial Services,Operations,Operations Specialist,Low,7.1,1,68
+EMP0150,NovaCore Financial Services,Marketing,Marketing Manager,Medium,14.6,1,79
+EMP0151,NovaCore Financial Services,Executive,Vice President,Privileged,10.5,1,89
+EMP0152,NovaCore Financial Services,Sales,Sales Manager,Medium,10.3,1,71
+EMP0153,NovaCore Financial Services,Information Technology,Security Analyst,Medium,13.7,1,62
+EMP0154,NovaCore Financial Services,Operations,Operations Manager,Medium,14.0,1,99
+EMP0155,NovaCore Financial Services,Human Resources,HR Specialist,High,0.9,0,92
+EMP0156,NovaCore Financial Services,Sales,Sales Representative,Low,14.8,1,72
+EMP0157,NovaCore Financial Services,Finance,Financial Analyst,Medium,9.0,1,76
+EMP0158,NovaCore Financial Services,Executive,Chief Officer,High,6.3,1,92
+EMP0159,NovaCore Financial Services,Executive,Vice President,High,1.0,1,78
+EMP0160,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,11.6,1,78
+EMP0161,NovaCore Financial Services,Sales,Sales Representative,Low,12.8,1,65
+EMP0162,NovaCore Financial Services,Human Resources,Recruiter,Medium,14.3,1,76
+EMP0163,NovaCore Financial Services,Information Technology,Security Analyst,Privileged,3.6,1,59
+EMP0164,NovaCore Financial Services,Executive,Director,High,1.9,1,93
+EMP0165,NovaCore Financial Services,Human Resources,Recruiter,Medium,7.9,1,92
+EMP0166,NovaCore Financial Services,Executive,Chief Officer,Privileged,8.4,1,78
+EMP0167,NovaCore Financial Services,Executive,Chief Officer,Privileged,13.2,1,85
+EMP0168,NovaCore Financial Services,Executive,Director,Privileged,10.6,1,94
+EMP0169,NovaCore Financial Services,Executive,Vice President,High,2.2,0,90
+EMP0170,NovaCore Financial Services,Operations,Operations Manager,Medium,6.0,1,56
+EMP0171,NovaCore Financial Services,Sales,Account Executive,Medium,13.6,1,96
+EMP0172,NovaCore Financial Services,Human Resources,HR Manager,High,6.1,1,78
+EMP0173,NovaCore Financial Services,Sales,Account Executive,Medium,13.0,1,57
+EMP0174,NovaCore Financial Services,Legal,Legal Manager,Medium,7.0,1,77
+EMP0175,NovaCore Financial Services,Information Technology,IT Support Analyst,Medium,7.5,1,62
+EMP0176,NovaCore Financial Services,Marketing,Marketing Manager,Low,1.3,0,86
+EMP0177,NovaCore Financial Services,Sales,Sales Representative,Medium,2.1,1,82
+EMP0178,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,2.9,1,66
+EMP0179,NovaCore Financial Services,Marketing,Marketing Specialist,Low,13.5,1,66
+EMP0180,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Low,3.0,0,84
+EMP0181,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Low,2.7,1,76
+EMP0182,NovaCore Financial Services,Legal,Compliance Analyst,High,3.3,1,65
+EMP0183,NovaCore Financial Services,Marketing,Marketing Manager,Low,7.7,1,69
+EMP0184,NovaCore Financial Services,Executive,Director,Privileged,13.1,1,80
+EMP0185,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Low,1.1,1,85
+EMP0186,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,2.9,1,87
+EMP0187,NovaCore Financial Services,Information Technology,System Administrator,Medium,5.7,1,59
+EMP0188,NovaCore Financial Services,Finance,Accountant,Medium,7.0,1,94
+EMP0189,NovaCore Financial Services,Human Resources,HR Manager,High,0.7,1,84
+EMP0190,NovaCore Financial Services,Information Technology,System Administrator,Medium,7.8,1,81
+EMP0191,NovaCore Financial Services,Finance,Accountant,High,1.8,1,58
+EMP0192,NovaCore Financial Services,Legal,Legal Assistant,High,4.2,1,80
+EMP0193,NovaCore Financial Services,Legal,Compliance Analyst,High,0.5,1,70
+EMP0194,NovaCore Financial Services,Operations,Operations Specialist,Medium,2.0,1,65
+EMP0195,NovaCore Financial Services,Human Resources,Recruiter,Medium,9.0,1,77
+EMP0196,NovaCore Financial Services,Finance,Accountant,Medium,1.5,1,95
+EMP0197,NovaCore Financial Services,Human Resources,HR Manager,Medium,8.9,1,65
+EMP0198,NovaCore Financial Services,Finance,Financial Analyst,Medium,4.4,1,75
+EMP0199,NovaCore Financial Services,Finance,Finance Manager,Medium,9.8,1,61
+EMP0200,NovaCore Financial Services,Sales,Sales Representative,Medium,1.7,1,84
+EMP0201,NovaCore Financial Services,Human Resources,HR Manager,Medium,3.8,1,70
+EMP0202,NovaCore Financial Services,Executive,Chief Officer,Privileged,2.8,1,67
+EMP0203,NovaCore Financial Services,Legal,Legal Assistant,Medium,1.4,1,81
+EMP0204,NovaCore Financial Services,Information Technology,System Administrator,Medium,1.9,1,77
+EMP0205,NovaCore Financial Services,Finance,Accountant,High,14.5,1,71
+EMP0206,NovaCore Financial Services,Marketing,Marketing Manager,Low,2.7,1,87
+EMP0207,NovaCore Financial Services,Human Resources,HR Manager,Medium,14.0,1,57
+EMP0208,NovaCore Financial Services,Human Resources,HR Manager,High,11.6,1,84
+EMP0209,NovaCore Financial Services,Human Resources,HR Manager,Medium,5.0,1,58
+EMP0210,NovaCore Financial Services,Legal,Legal Manager,High,1.9,1,78
+EMP0211,NovaCore Financial Services,Legal,Legal Assistant,High,4.5,1,77
+EMP0212,NovaCore Financial Services,Finance,Accountant,High,8.1,0,63
+EMP0213,NovaCore Financial Services,Human Resources,Recruiter,High,5.2,0,90
+EMP0214,NovaCore Financial Services,Executive,Chief Officer,High,4.0,1,71
+EMP0215,NovaCore Financial Services,Marketing,Marketing Specialist,Medium,11.5,1,48
+EMP0216,NovaCore Financial Services,Executive,Vice President,Privileged,5.4,1,68
+EMP0217,NovaCore Financial Services,Operations,Operations Specialist,Low,12.5,1,82
+EMP0218,NovaCore Financial Services,Human Resources,Recruiter,High,14.1,1,70
+EMP0219,NovaCore Financial Services,Sales,Account Executive,Medium,1.2,1,92
+EMP0220,NovaCore Financial Services,Legal,Legal Assistant,High,2.3,1,81
+EMP0221,NovaCore Financial Services,Legal,Legal Assistant,High,3.2,1,82
+EMP0222,NovaCore Financial Services,Sales,Account Executive,Medium,10.0,1,72
+EMP0223,NovaCore Financial Services,Legal,Compliance Analyst,High,5.5,1,92
+EMP0224,NovaCore Financial Services,Finance,Finance Manager,Medium,6.7,1,73
+EMP0225,NovaCore Financial Services,Human Resources,HR Specialist,High,7.0,1,78
+EMP0226,NovaCore Financial Services,Executive,Chief Officer,High,3.6,1,98
+EMP0227,NovaCore Financial Services,Executive,Chief Officer,Privileged,5.9,1,80
+EMP0228,NovaCore Financial Services,Executive,Director,High,1.9,1,87
+EMP0229,NovaCore Financial Services,Operations,Operations Analyst,Medium,9.5,1,82
+EMP0230,NovaCore Financial Services,Sales,Account Executive,Medium,9.4,1,73
+EMP0231,NovaCore Financial Services,Executive,Chief Officer,Privileged,13.4,1,72
+EMP0232,NovaCore Financial Services,Marketing,Marketing Manager,Medium,3.9,1,67
+EMP0233,NovaCore Financial Services,Legal,Legal Manager,High,0.7,1,83
+EMP0234,NovaCore Financial Services,Operations,Operations Specialist,Medium,5.3,1,82
+EMP0235,NovaCore Financial Services,Sales,Sales Representative,Low,1.8,1,74
+EMP0236,NovaCore Financial Services,Legal,Legal Assistant,Medium,12.0,0,66
+EMP0237,NovaCore Financial Services,Sales,Sales Representative,Medium,3.6,1,88
+EMP0238,NovaCore Financial Services,Operations,Operations Manager,Medium,10.5,1,94
+EMP0239,NovaCore Financial Services,Human Resources,HR Specialist,High,3.9,1,56
+EMP0240,NovaCore Financial Services,Sales,Account Executive,Low,7.0,1,95
+EMP0241,NovaCore Financial Services,Operations,Operations Analyst,Low,2.5,1,100
+EMP0242,NovaCore Financial Services,Operations,Operations Analyst,Low,0.5,1,79
+EMP0243,NovaCore Financial Services,Operations,Operations Manager,Low,14.0,1,83
+EMP0244,NovaCore Financial Services,Executive,Director,High,10.7,1,80
+EMP0245,NovaCore Financial Services,Operations,Operations Specialist,Medium,8.7,1,97
+EMP0246,NovaCore Financial Services,Executive,Vice President,High,14.0,1,71
+EMP0247,NovaCore Financial Services,Finance,Accountant,High,6.9,0,78
+EMP0248,NovaCore Financial Services,Human Resources,HR Specialist,High,9.0,1,91
+EMP0249,NovaCore Financial Services,Executive,Director,High,1.0,1,65
+EMP0250,NovaCore Financial Services,Information Technology,IT Support Analyst,Privileged,8.2,1,58
+EMP0251,NovaCore Financial Services,Operations,Operations Analyst,Low,5.3,1,73
+EMP0252,NovaCore Financial Services,Human Resources,HR Manager,High,3.5,1,98
+EMP0253,NovaCore Financial Services,Sales,Sales Manager,Medium,2.3,1,45
+EMP0254,NovaCore Financial Services,Executive,Vice President,Privileged,13.7,1,77
+EMP0255,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Low,8.8,1,74
+EMP0256,NovaCore Financial Services,Human Resources,HR Specialist,Medium,1.5,1,64
+EMP0257,NovaCore Financial Services,Operations,Operations Manager,Low,7.6,1,78
+EMP0258,NovaCore Financial Services,Information Technology,IT Support Analyst,Medium,3.3,1,77
+EMP0259,NovaCore Financial Services,Human Resources,HR Specialist,Medium,3.2,1,77
+EMP0260,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,8.6,0,71
+EMP0261,NovaCore Financial Services,Operations,Operations Analyst,Low,11.7,1,46
+EMP0262,NovaCore Financial Services,Operations,Operations Manager,Medium,6.1,1,91
+EMP0263,NovaCore Financial Services,Executive,Director,High,2.5,1,61
+EMP0264,NovaCore Financial Services,Operations,Operations Manager,Low,9.7,1,68
+EMP0265,NovaCore Financial Services,Marketing,Marketing Specialist,Low,0.6,1,89
+EMP0266,NovaCore Financial Services,Information Technology,System Administrator,Medium,0.6,1,93
+EMP0267,NovaCore Financial Services,Human Resources,HR Specialist,Medium,3.6,1,71
+EMP0268,NovaCore Financial Services,Operations,Operations Manager,Medium,9.9,1,83
+EMP0269,NovaCore Financial Services,Executive,Director,Privileged,1.7,1,86
+EMP0270,NovaCore Financial Services,Operations,Operations Manager,Medium,12.5,1,83
+EMP0271,NovaCore Financial Services,Operations,Operations Manager,Medium,10.1,1,85
+EMP0272,NovaCore Financial Services,Executive,Director,High,0.4,0,74
+EMP0273,NovaCore Financial Services,Marketing,Marketing Manager,Medium,3.3,0,81
+EMP0274,NovaCore Financial Services,Operations,Operations Analyst,Low,6.4,1,62
+EMP0275,NovaCore Financial Services,Sales,Sales Manager,Low,12.3,1,69
+EMP0276,NovaCore Financial Services,Operations,Operations Manager,Low,8.9,1,61
+EMP0277,NovaCore Financial Services,Information Technology,System Administrator,Privileged,9.4,1,53
+EMP0278,NovaCore Financial Services,Executive,Vice President,High,4.6,1,98
+EMP0279,NovaCore Financial Services,Marketing,Marketing Manager,Medium,11.5,0,77
+EMP0280,NovaCore Financial Services,Human Resources,Recruiter,High,13.4,1,91
+EMP0281,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,6.5,0,81
+EMP0282,NovaCore Financial Services,Human Resources,HR Specialist,High,9.6,1,57
+EMP0283,NovaCore Financial Services,Marketing,Marketing Manager,Medium,2.3,1,78
+EMP0284,NovaCore Financial Services,Operations,Operations Manager,Medium,2.7,1,82
+EMP0285,NovaCore Financial Services,Finance,Accountant,Medium,0.5,1,80
+EMP0286,NovaCore Financial Services,Legal,Compliance Analyst,High,4.3,1,66
+EMP0287,NovaCore Financial Services,Human Resources,Recruiter,Medium,9.8,1,81
+EMP0288,NovaCore Financial Services,Executive,Vice President,High,9.1,1,89
+EMP0289,NovaCore Financial Services,Sales,Sales Manager,Medium,2.8,1,55
+EMP0290,NovaCore Financial Services,Executive,Chief Officer,Privileged,7.9,0,62
+EMP0291,NovaCore Financial Services,Finance,Financial Analyst,High,2.7,1,80
+EMP0292,NovaCore Financial Services,Information Technology,System Administrator,High,3.8,1,68
+EMP0293,NovaCore Financial Services,Executive,Director,High,4.5,1,66
+EMP0294,NovaCore Financial Services,Sales,Sales Manager,Low,8.6,1,90
+EMP0295,NovaCore Financial Services,Operations,Operations Manager,Low,10.0,1,67
+EMP0296,NovaCore Financial Services,Marketing,Marketing Specialist,Low,0.7,1,86
+EMP0297,NovaCore Financial Services,Human Resources,Recruiter,Medium,9.0,0,100
+EMP0298,NovaCore Financial Services,Information Technology,System Administrator,Privileged,5.1,1,76
+EMP0299,NovaCore Financial Services,Operations,Operations Manager,Medium,1.8,0,77
+EMP0300,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,10.4,1,99
+EMP0301,NovaCore Financial Services,Sales,Account Executive,Low,3.8,1,85
+EMP0302,NovaCore Financial Services,Marketing,Marketing Specialist,Low,4.2,1,89
+EMP0303,NovaCore Financial Services,Human Resources,Recruiter,High,5.5,0,77
+EMP0304,NovaCore Financial Services,Legal,Legal Manager,High,2.9,1,85
+EMP0305,NovaCore Financial Services,Finance,Accountant,High,13.1,1,84
+EMP0306,NovaCore Financial Services,Executive,Director,Privileged,10.4,1,90
+EMP0307,NovaCore Financial Services,Executive,Vice President,Privileged,3.9,1,83
+EMP0308,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,2.9,1,80
+EMP0309,NovaCore Financial Services,Sales,Sales Manager,Low,13.7,0,65
+EMP0310,NovaCore Financial Services,Marketing,Marketing Specialist,Medium,13.9,1,90
+EMP0311,NovaCore Financial Services,Finance,Accountant,High,14.2,1,78
+EMP0312,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Low,4.9,1,78
+EMP0313,NovaCore Financial Services,Executive,Director,High,0.7,1,72
+EMP0314,NovaCore Financial Services,Legal,Legal Assistant,High,1.3,1,74
+EMP0315,NovaCore Financial Services,Human Resources,HR Manager,High,5.2,1,75
+EMP0316,NovaCore Financial Services,Finance,Finance Manager,Medium,8.2,1,72
+EMP0317,NovaCore Financial Services,Marketing,Marketing Manager,Low,4.9,1,81
+EMP0318,NovaCore Financial Services,Human Resources,Recruiter,High,3.6,0,88
+EMP0319,NovaCore Financial Services,Legal,Legal Manager,High,13.1,0,78
+EMP0320,NovaCore Financial Services,Human Resources,Recruiter,High,14.1,1,90
+EMP0321,NovaCore Financial Services,Legal,Legal Manager,High,15.0,1,71
+EMP0322,NovaCore Financial Services,Finance,Finance Manager,Medium,7.3,1,94
+EMP0323,NovaCore Financial Services,Sales,Sales Manager,Medium,13.1,1,72
+EMP0324,NovaCore Financial Services,Sales,Sales Manager,Low,6.4,1,95
+EMP0325,NovaCore Financial Services,Marketing,Marketing Specialist,Low,3.7,0,61
+EMP0326,NovaCore Financial Services,Executive,Director,Privileged,4.6,1,66
+EMP0327,NovaCore Financial Services,Finance,Financial Analyst,High,0.8,0,77
+EMP0328,NovaCore Financial Services,Finance,Accountant,High,5.9,1,80
+EMP0329,NovaCore Financial Services,Legal,Compliance Analyst,Medium,3.4,1,89
+EMP0330,NovaCore Financial Services,Sales,Sales Manager,Medium,14.2,1,75
+EMP0331,NovaCore Financial Services,Information Technology,IT Support Analyst,Medium,9.3,1,79
+EMP0332,NovaCore Financial Services,Human Resources,HR Manager,High,9.2,1,83
+EMP0333,NovaCore Financial Services,Sales,Account Executive,Low,3.6,1,70
+EMP0334,NovaCore Financial Services,Sales,Account Executive,Medium,11.7,1,71
+EMP0335,NovaCore Financial Services,Executive,Vice President,High,1.1,1,95
+EMP0336,NovaCore Financial Services,Executive,Vice President,High,10.5,1,71
+EMP0337,NovaCore Financial Services,Human Resources,Recruiter,High,12.3,1,80
+EMP0338,NovaCore Financial Services,Operations,Operations Manager,Medium,9.0,1,59
+EMP0339,NovaCore Financial Services,Operations,Operations Specialist,Medium,1.6,1,70
+EMP0340,NovaCore Financial Services,Sales,Account Executive,Medium,13.4,1,73
+EMP0341,NovaCore Financial Services,Human Resources,HR Specialist,High,13.0,1,85
+EMP0342,NovaCore Financial Services,Legal,Legal Manager,High,1.5,1,100
+EMP0343,NovaCore Financial Services,Operations,Operations Analyst,Medium,5.7,1,77
+EMP0344,NovaCore Financial Services,Operations,Operations Analyst,Low,1.4,1,99
+EMP0345,NovaCore Financial Services,Executive,Vice President,High,10.3,0,77
+EMP0346,NovaCore Financial Services,Legal,Legal Assistant,Medium,7.3,1,92
+EMP0347,NovaCore Financial Services,Operations,Operations Manager,Low,12.4,1,86
+EMP0348,NovaCore Financial Services,Human Resources,HR Manager,Medium,4.2,1,100
+EMP0349,NovaCore Financial Services,Operations,Operations Specialist,Low,12.0,1,87
+EMP0350,NovaCore Financial Services,Legal,Legal Manager,Medium,10.5,1,84
+EMP0351,NovaCore Financial Services,Human Resources,Recruiter,High,9.4,1,75
+EMP0352,NovaCore Financial Services,Marketing,Marketing Specialist,Low,5.2,1,79
+EMP0353,NovaCore Financial Services,Information Technology,Security Analyst,High,2.6,1,78
+EMP0354,NovaCore Financial Services,Operations,Operations Analyst,Medium,0.3,1,93
+EMP0355,NovaCore Financial Services,Executive,Vice President,Privileged,9.3,1,61
+EMP0356,NovaCore Financial Services,Human Resources,Recruiter,Medium,9.6,1,86
+EMP0357,NovaCore Financial Services,Information Technology,IT Support Analyst,Privileged,11.7,0,80
+EMP0358,NovaCore Financial Services,Marketing,Marketing Manager,Medium,14.5,1,96
+EMP0359,NovaCore Financial Services,Human Resources,Recruiter,Medium,9.6,1,72
+EMP0360,NovaCore Financial Services,Operations,Operations Manager,Low,4.7,1,80
+EMP0361,NovaCore Financial Services,Executive,Vice President,Privileged,1.2,1,92
+EMP0362,NovaCore Financial Services,Marketing,Marketing Manager,Medium,0.9,1,59
+EMP0363,NovaCore Financial Services,Human Resources,HR Manager,Medium,14.6,1,71
+EMP0364,NovaCore Financial Services,Executive,Director,Privileged,11.4,0,82
+EMP0365,NovaCore Financial Services,Sales,Sales Manager,Low,0.5,1,96
+EMP0366,NovaCore Financial Services,Executive,Chief Officer,Privileged,10.3,1,77
+EMP0367,NovaCore Financial Services,Marketing,Marketing Specialist,Low,4.2,1,60
+EMP0368,NovaCore Financial Services,Finance,Financial Analyst,High,2.6,1,51
+EMP0369,NovaCore Financial Services,Executive,Director,High,10.5,1,80
+EMP0370,NovaCore Financial Services,Sales,Sales Manager,Low,9.9,1,71
+EMP0371,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,14.3,1,85
+EMP0372,NovaCore Financial Services,Marketing,Marketing Manager,Low,6.4,1,76
+EMP0373,NovaCore Financial Services,Marketing,Marketing Manager,Low,6.1,1,77
+EMP0374,NovaCore Financial Services,Executive,Chief Officer,Privileged,13.4,1,80
+EMP0375,NovaCore Financial Services,Operations,Operations Analyst,Medium,3.4,0,62
+EMP0376,NovaCore Financial Services,Sales,Account Executive,Medium,13.0,1,95
+EMP0377,NovaCore Financial Services,Sales,Account Executive,Low,14.5,1,82
+EMP0378,NovaCore Financial Services,Legal,Legal Manager,High,11.6,1,83
+EMP0379,NovaCore Financial Services,Finance,Accountant,High,11.5,1,80
+EMP0380,NovaCore Financial Services,Sales,Sales Representative,Medium,12.0,1,86
+EMP0381,NovaCore Financial Services,Human Resources,HR Manager,Medium,1.9,0,69
+EMP0382,NovaCore Financial Services,Finance,Financial Analyst,High,3.2,1,99
+EMP0383,NovaCore Financial Services,Sales,Sales Representative,Low,1.2,1,88
+EMP0384,NovaCore Financial Services,Human Resources,HR Manager,Medium,4.8,1,70
+EMP0385,NovaCore Financial Services,Sales,Sales Representative,Medium,0.4,0,72
+EMP0386,NovaCore Financial Services,Information Technology,Security Analyst,Medium,9.1,1,48
+EMP0387,NovaCore Financial Services,Operations,Operations Analyst,Low,10.5,1,66
+EMP0388,NovaCore Financial Services,Operations,Operations Analyst,Low,3.8,1,77
+EMP0389,NovaCore Financial Services,Finance,Financial Analyst,Medium,2.3,1,96
+EMP0390,NovaCore Financial Services,Legal,Legal Assistant,High,8.5,0,88
+EMP0391,NovaCore Financial Services,Finance,Financial Analyst,High,5.0,1,75
+EMP0392,NovaCore Financial Services,Finance,Financial Analyst,High,0.7,0,69
+EMP0393,NovaCore Financial Services,Human Resources,HR Manager,Medium,6.1,0,99
+EMP0394,NovaCore Financial Services,Executive,Vice President,Privileged,12.0,1,85
+EMP0395,NovaCore Financial Services,Human Resources,Recruiter,Medium,2.7,0,94
+EMP0396,NovaCore Financial Services,Finance,Finance Manager,High,0.7,1,89
+EMP0397,NovaCore Financial Services,Executive,Chief Officer,High,1.0,1,86
+EMP0398,NovaCore Financial Services,Finance,Accountant,High,10.8,1,82
+EMP0399,NovaCore Financial Services,Marketing,Marketing Manager,Low,5.2,1,93
+EMP0400,NovaCore Financial Services,Executive,Chief Officer,Privileged,6.9,1,80
+EMP0401,NovaCore Financial Services,Human Resources,HR Specialist,High,8.0,1,70
+EMP0402,NovaCore Financial Services,Information Technology,IT Support Analyst,Medium,13.1,1,72
+EMP0403,NovaCore Financial Services,Operations,Operations Manager,Medium,14.6,1,84
+EMP0404,NovaCore Financial Services,Marketing,Marketing Manager,Medium,9.9,1,71
+EMP0405,NovaCore Financial Services,Executive,Chief Officer,Privileged,8.4,1,78
+EMP0406,NovaCore Financial Services,Human Resources,HR Manager,Medium,3.2,1,79
+EMP0407,NovaCore Financial Services,Sales,Account Executive,Medium,1.3,0,74
+EMP0408,NovaCore Financial Services,Sales,Account Executive,Medium,13.1,1,57
+EMP0409,NovaCore Financial Services,Executive,Vice President,Privileged,11.2,1,63
+EMP0410,NovaCore Financial Services,Human Resources,Recruiter,High,14.8,0,60
+EMP0411,NovaCore Financial Services,Legal,Legal Manager,High,13.0,1,98
+EMP0412,NovaCore Financial Services,Legal,Legal Assistant,High,7.4,1,72
+EMP0413,NovaCore Financial Services,Human Resources,HR Specialist,Medium,13.5,1,85
+EMP0414,NovaCore Financial Services,Human Resources,Recruiter,Medium,13.7,1,59
+EMP0415,NovaCore Financial Services,Legal,Legal Assistant,Medium,9.4,1,70
+EMP0416,NovaCore Financial Services,Legal,Legal Manager,Medium,10.8,1,82
+EMP0417,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,2.9,1,77
+EMP0418,NovaCore Financial Services,Finance,Accountant,High,3.9,1,92
+EMP0419,NovaCore Financial Services,Legal,Legal Assistant,Medium,6.8,1,91
+EMP0420,NovaCore Financial Services,Information Technology,Security Analyst,High,2.6,1,57
+EMP0421,NovaCore Financial Services,Sales,Sales Representative,Medium,14.5,1,62
+EMP0422,NovaCore Financial Services,Legal,Legal Assistant,High,11.6,0,91
+EMP0423,NovaCore Financial Services,Sales,Account Executive,Low,14.6,1,78
+EMP0424,NovaCore Financial Services,Operations,Operations Analyst,Low,5.2,1,62
+EMP0425,NovaCore Financial Services,Operations,Operations Manager,Medium,6.6,1,96
+EMP0426,NovaCore Financial Services,Legal,Compliance Analyst,Medium,2.7,1,88
+EMP0427,NovaCore Financial Services,Information Technology,IT Support Analyst,Privileged,0.7,1,74
+EMP0428,NovaCore Financial Services,Marketing,Marketing Specialist,Low,12.7,1,100
+EMP0429,NovaCore Financial Services,Finance,Financial Analyst,Medium,8.9,1,74
+EMP0430,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,4.2,0,75
+EMP0431,NovaCore Financial Services,Legal,Legal Assistant,High,8.1,1,86
+EMP0432,NovaCore Financial Services,Operations,Operations Manager,Medium,4.9,1,77
+EMP0433,NovaCore Financial Services,Human Resources,HR Specialist,Medium,0.8,0,88
+EMP0434,NovaCore Financial Services,Information Technology,Security Analyst,Medium,6.9,1,82
+EMP0435,NovaCore Financial Services,Human Resources,Recruiter,High,7.4,1,91
+EMP0436,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,3.2,1,65
+EMP0437,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Low,14.6,0,70
+EMP0438,NovaCore Financial Services,Human Resources,Recruiter,High,13.0,1,100
+EMP0439,NovaCore Financial Services,Human Resources,Recruiter,High,10.5,1,79
+EMP0440,NovaCore Financial Services,Operations,Operations Analyst,Low,7.6,1,82
+EMP0441,NovaCore Financial Services,Marketing,Marketing Manager,Low,13.1,1,91
+EMP0442,NovaCore Financial Services,Finance,Financial Analyst,High,3.4,1,92
+EMP0443,NovaCore Financial Services,Sales,Sales Representative,Medium,6.0,1,81
+EMP0444,NovaCore Financial Services,Operations,Operations Specialist,Low,15.0,0,68
+EMP0445,NovaCore Financial Services,Finance,Accountant,High,14.7,1,81
+EMP0446,NovaCore Financial Services,Information Technology,IT Support Analyst,High,8.6,1,83
+EMP0447,NovaCore Financial Services,Sales,Sales Manager,Medium,13.2,1,92
+EMP0448,NovaCore Financial Services,Human Resources,Recruiter,Medium,12.2,1,63
+EMP0449,NovaCore Financial Services,Marketing,Marketing Specialist,Medium,12.0,1,76
+EMP0450,NovaCore Financial Services,Human Resources,Recruiter,High,8.3,0,79
+EMP0451,NovaCore Financial Services,Marketing,Marketing Manager,Medium,5.0,1,97
+EMP0452,NovaCore Financial Services,Operations,Operations Analyst,Medium,6.0,1,67
+EMP0453,NovaCore Financial Services,Finance,Accountant,Medium,3.7,1,97
+EMP0454,NovaCore Financial Services,Executive,Chief Officer,Privileged,9.4,1,90
+EMP0455,NovaCore Financial Services,Human Resources,Recruiter,Medium,5.8,1,48
+EMP0456,NovaCore Financial Services,Sales,Account Executive,Medium,0.6,1,100
+EMP0457,NovaCore Financial Services,Human Resources,Recruiter,High,5.8,1,90
+EMP0458,NovaCore Financial Services,Legal,Legal Assistant,High,9.2,1,100
+EMP0459,NovaCore Financial Services,Information Technology,IT Support Analyst,Privileged,12.2,1,87
+EMP0460,NovaCore Financial Services,Human Resources,HR Manager,Medium,3.8,1,81
+EMP0461,NovaCore Financial Services,Legal,Compliance Analyst,Medium,1.1,1,68
+EMP0462,NovaCore Financial Services,Sales,Sales Representative,Low,7.4,1,74
+EMP0463,NovaCore Financial Services,Operations,Operations Analyst,Low,4.4,1,80
+EMP0464,NovaCore Financial Services,Information Technology,Security Analyst,Medium,4.8,1,94
+EMP0465,NovaCore Financial Services,Information Technology,Security Analyst,High,10.8,1,66
+EMP0466,NovaCore Financial Services,Executive,Chief Officer,Privileged,2.9,1,75
+EMP0467,NovaCore Financial Services,Legal,Legal Manager,High,2.9,1,70
+EMP0468,NovaCore Financial Services,Information Technology,System Administrator,Medium,8.6,1,81
+EMP0469,NovaCore Financial Services,Executive,Vice President,Privileged,14.5,1,80
+EMP0470,NovaCore Financial Services,Operations,Operations Manager,Low,0.8,1,94
+EMP0471,NovaCore Financial Services,Legal,Legal Manager,Medium,14.3,1,78
+EMP0472,NovaCore Financial Services,Operations,Operations Specialist,Medium,3.6,1,78
+EMP0473,NovaCore Financial Services,Finance,Financial Analyst,High,9.2,1,63
+EMP0474,NovaCore Financial Services,Operations,Operations Analyst,Low,11.8,1,69
+EMP0475,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Low,12.4,1,69
+EMP0476,NovaCore Financial Services,Executive,Chief Officer,High,9.4,1,81
+EMP0477,NovaCore Financial Services,Legal,Legal Manager,High,8.9,1,85
+EMP0478,NovaCore Financial Services,Information Technology,IT Support Analyst,High,3.4,0,82
+EMP0479,NovaCore Financial Services,Human Resources,Recruiter,Medium,0.5,1,89
+EMP0480,NovaCore Financial Services,Information Technology,IT Support Analyst,Medium,3.6,1,100
+EMP0481,NovaCore Financial Services,Executive,Vice President,High,9.0,1,68
+EMP0482,NovaCore Financial Services,Legal,Compliance Analyst,High,6.5,1,97
+EMP0483,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,10.4,1,84
+EMP0484,NovaCore Financial Services,Finance,Finance Manager,High,4.3,0,97
+EMP0485,NovaCore Financial Services,Human Resources,Recruiter,Medium,1.5,1,71
+EMP0486,NovaCore Financial Services,Marketing,Digital Marketing Analyst,Medium,3.6,1,65
+EMP0487,NovaCore Financial Services,Information Technology,System Administrator,Medium,1.2,1,80
+EMP0488,NovaCore Financial Services,Information Technology,System Administrator,High,13.2,1,59
+EMP0489,NovaCore Financial Services,Marketing,Marketing Specialist,Low,8.1,1,92
+EMP0490,NovaCore Financial Services,Operations,Operations Manager,Medium,14.9,1,63
+EMP0491,NovaCore Financial Services,Legal,Legal Assistant,Medium,8.5,1,69
+EMP0492,NovaCore Financial Services,Marketing,Marketing Manager,Medium,8.5,1,77
+EMP0493,NovaCore Financial Services,Finance,Accountant,High,2.8,1,80
+EMP0494,NovaCore Financial Services,Information Technology,IT Support Analyst,High,1.6,1,61
+EMP0495,NovaCore Financial Services,Executive,Director,High,11.4,1,91
+EMP0496,NovaCore Financial Services,Information Technology,IT Support Analyst,Medium,13.9,1,85
+EMP0497,NovaCore Financial Services,Operations,Operations Analyst,Low,6.1,1,92
+EMP0498,NovaCore Financial Services,Legal,Legal Manager,Medium,7.9,1,79
+EMP0499,NovaCore Financial Services,Marketing,Marketing Specialist,Low,1.5,1,79
+EMP0500,NovaCore Financial Services,Information Technology,Security Analyst,Privileged,11.8,1,76

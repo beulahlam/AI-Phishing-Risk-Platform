@@ -1,0 +1,501 @@
+employee_id,department,role,privilege_level,risk_score,risk_level,primary_risk_driver,training_module,training_topic,training_duration_minutes,training_priority,completion_deadline_days,follow_up_simulation_days,escalation_requirement
+EMP0001,Human Resources,HR Specialist,High,35.44,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0002,Sales,Sales Representative,Low,3.58,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0003,Human Resources,HR Manager,Medium,17.09,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0004,Marketing,Marketing Specialist,Low,17.68,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0005,Human Resources,HR Specialist,Medium,21.19,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0006,Finance,Finance Manager,Medium,12.25,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0007,Marketing,Marketing Specialist,Medium,28.25,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0008,Operations,Operations Analyst,Low,17.79,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0009,Marketing,Digital Marketing Analyst,Medium,22.67,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0010,Information Technology,IT Support Analyst,High,27.54,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0011,Human Resources,HR Specialist,High,16.49,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0012,Human Resources,Recruiter,High,47.12,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0013,Operations,Operations Analyst,Medium,0.0,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0014,Human Resources,Recruiter,Medium,29.51,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0015,Operations,Operations Manager,Medium,8.14,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0016,Sales,Sales Manager,Low,8.95,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0017,Finance,Finance Manager,Medium,28.77,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0018,Operations,Operations Analyst,Low,9.58,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0019,Human Resources,Recruiter,High,19.54,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0020,Executive,Chief Officer,Privileged,18.11,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0021,Information Technology,System Administrator,High,15.96,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0022,Sales,Sales Manager,Medium,18.35,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0023,Human Resources,HR Manager,Medium,19.19,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0024,Sales,Sales Representative,Medium,8.88,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0025,Marketing,Digital Marketing Analyst,Low,17.16,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0026,Legal,Legal Assistant,Medium,16.25,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0027,Finance,Accountant,High,8.39,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0028,Operations,Operations Analyst,Low,1.47,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0029,Legal,Legal Assistant,High,16.6,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0030,Marketing,Marketing Manager,Medium,4.67,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0031,Information Technology,System Administrator,Medium,13.51,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0032,Sales,Sales Manager,Medium,14.46,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0033,Marketing,Marketing Manager,Medium,8.46,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0034,Legal,Legal Assistant,Medium,23.93,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0035,Executive,Director,High,31.33,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0036,Human Resources,HR Specialist,Medium,5.72,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0037,Marketing,Marketing Manager,Low,18.63,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0038,Marketing,Digital Marketing Analyst,Medium,6.67,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0039,Operations,Operations Manager,Low,13.58,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0040,Human Resources,HR Manager,High,22.07,Moderate,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Standard,30,60,Monitor
+EMP0041,Legal,Legal Assistant,High,28.18,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0042,Marketing,Marketing Specialist,Medium,12.77,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0043,Finance,Finance Manager,High,31.23,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0044,Information Technology,Security Analyst,Medium,36.56,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0045,Operations,Operations Manager,Low,16.21,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0046,Information Technology,System Administrator,Medium,22.25,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0047,Finance,Finance Manager,High,26.49,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0048,Executive,Director,High,10.18,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0049,Legal,Compliance Analyst,Medium,1.51,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0050,Finance,Financial Analyst,Medium,25.51,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0051,Human Resources,HR Manager,High,29.65,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0052,Human Resources,HR Manager,Medium,25.3,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0053,Information Technology,Security Analyst,High,38.81,High,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,High,7,30,Manager Notification
+EMP0054,Information Technology,System Administrator,Privileged,24.32,Moderate,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Standard,30,60,Monitor
+EMP0055,Marketing,Marketing Specialist,Low,8.42,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0056,Operations,Operations Specialist,Medium,11.09,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0057,Executive,Chief Officer,Privileged,17.79,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0058,Human Resources,HR Specialist,Medium,13.3,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0059,Human Resources,Recruiter,Medium,21.82,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0060,Sales,Sales Manager,Low,9.26,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0061,Finance,Financial Analyst,Medium,22.35,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0062,Sales,Sales Representative,Low,30.11,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0063,Legal,Legal Assistant,Medium,9.51,Low,Training Weakness,Security Awareness Fundamentals Refresher,Core phishing awareness and safe email behavior,30,Routine,90,90,None
+EMP0064,Operations,Operations Manager,Medium,10.88,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0065,Sales,Sales Manager,Low,7.47,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0066,Executive,Director,Privileged,17.16,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0067,Marketing,Marketing Specialist,Low,20.84,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0068,Human Resources,HR Manager,High,18.81,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0069,Legal,Compliance Analyst,High,26.7,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0070,Executive,Chief Officer,High,7.02,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0071,Human Resources,HR Specialist,High,43.33,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0072,Legal,Legal Assistant,Medium,16.88,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0073,Sales,Sales Representative,Medium,20.56,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0074,Information Technology,System Administrator,Medium,19.09,Low,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Routine,90,90,None
+EMP0075,Operations,Operations Specialist,Low,16.63,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0076,Human Resources,Recruiter,Medium,5.82,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0077,Finance,Finance Manager,Medium,33.82,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0078,Human Resources,HR Specialist,Medium,34.67,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0079,Marketing,Digital Marketing Analyst,Medium,26.98,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0080,Sales,Account Executive,Low,5.37,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0081,Information Technology,System Administrator,Medium,19.93,Low,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Routine,90,90,None
+EMP0082,Marketing,Digital Marketing Analyst,Medium,16.77,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0083,Operations,Operations Specialist,Medium,7.82,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0084,Information Technology,IT Support Analyst,High,5.33,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0085,Sales,Sales Representative,Low,1.26,Low,Training Weakness,Security Awareness Fundamentals Refresher,Core phishing awareness and safe email behavior,30,Routine,90,90,None
+EMP0086,Legal,Legal Assistant,Medium,40.88,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0087,Executive,Chief Officer,High,19.02,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0088,Finance,Finance Manager,Medium,18.46,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0089,Information Technology,IT Support Analyst,Privileged,38.11,High,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,High,7,30,Manager Notification
+EMP0090,Human Resources,HR Manager,Medium,35.61,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0091,Marketing,Marketing Specialist,Low,23.89,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0092,Finance,Finance Manager,Medium,41.4,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0093,Marketing,Marketing Manager,Medium,20.56,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0094,Operations,Operations Analyst,Medium,22.46,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0095,Sales,Account Executive,Medium,19.4,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0096,Information Technology,Security Analyst,Privileged,31.79,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0097,Operations,Operations Specialist,Medium,8.35,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0098,Human Resources,HR Specialist,High,17.86,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0099,Human Resources,HR Specialist,Medium,6.14,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0100,Operations,Operations Analyst,Medium,11.4,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0101,Human Resources,HR Specialist,High,5.65,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0102,Operations,Operations Analyst,Medium,20.67,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0103,Operations,Operations Manager,Low,16.42,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0104,Operations,Operations Manager,Low,31.79,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0105,Information Technology,System Administrator,Medium,35.09,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0106,Human Resources,HR Manager,Medium,29.82,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0107,Operations,Operations Specialist,Low,6.32,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0108,Legal,Legal Assistant,High,20.18,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0109,Executive,Vice President,High,9.96,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0110,Human Resources,HR Manager,High,37.75,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0111,Operations,Operations Analyst,Low,34.63,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0112,Legal,Legal Assistant,High,28.07,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0113,Information Technology,Security Analyst,High,27.54,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0114,Marketing,Marketing Manager,Low,11.26,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0115,Human Resources,HR Specialist,Medium,13.3,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0116,Finance,Accountant,Medium,37.19,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0117,Marketing,Marketing Specialist,Low,28.74,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0118,Operations,Operations Specialist,Low,3.79,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0119,Legal,Legal Assistant,Medium,18.25,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0120,Human Resources,Recruiter,High,37.96,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0121,Information Technology,IT Support Analyst,Medium,28.98,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0122,Information Technology,System Administrator,Medium,12.14,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0123,Information Technology,Security Analyst,High,24.28,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0124,Marketing,Marketing Manager,Low,12.0,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0125,Operations,Operations Analyst,Low,0.53,Low,Training Weakness,Security Awareness Fundamentals Refresher,Core phishing awareness and safe email behavior,30,Routine,90,90,None
+EMP0126,Marketing,Marketing Specialist,Medium,17.4,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0127,Sales,Sales Representative,Medium,20.67,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0128,Legal,Compliance Analyst,Medium,19.61,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0129,Sales,Sales Representative,Low,13.89,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0130,Marketing,Digital Marketing Analyst,Medium,17.3,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0131,Human Resources,Recruiter,High,39.12,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0132,Marketing,Marketing Manager,Medium,21.82,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0133,Finance,Financial Analyst,High,49.65,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0134,Information Technology,Security Analyst,High,20.07,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0135,Finance,Financial Analyst,High,24.49,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0136,Legal,Legal Manager,High,15.96,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0137,Marketing,Marketing Manager,Low,7.68,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0138,Marketing,Marketing Manager,Low,17.89,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0139,Operations,Operations Analyst,Medium,13.93,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0140,Finance,Finance Manager,Medium,32.67,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0141,Legal,Compliance Analyst,Medium,7.61,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0142,Legal,Legal Manager,High,23.02,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0143,Human Resources,HR Manager,High,29.65,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0144,Operations,Operations Manager,Medium,14.25,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0145,Legal,Compliance Analyst,High,22.28,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0146,Information Technology,IT Support Analyst,High,4.49,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0147,Marketing,Marketing Manager,Low,3.68,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0148,Operations,Operations Specialist,Low,10.74,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0149,Operations,Operations Specialist,Low,7.58,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0150,Marketing,Marketing Manager,Medium,7.3,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0151,Executive,Vice President,Privileged,23.79,Moderate,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Standard,30,60,Monitor
+EMP0152,Sales,Sales Manager,Medium,25.51,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0153,Information Technology,Security Analyst,Medium,43.82,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0154,Operations,Operations Manager,Medium,9.4,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0155,Human Resources,HR Specialist,High,31.54,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0156,Sales,Sales Representative,Low,17.68,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0157,Finance,Financial Analyst,Medium,17.09,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0158,Executive,Chief Officer,High,11.54,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0159,Executive,Vice President,High,13.54,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0160,Marketing,Digital Marketing Analyst,Medium,19.51,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0161,Sales,Sales Representative,Low,20.53,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0162,Human Resources,Recruiter,Medium,36.56,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0163,Information Technology,Security Analyst,Privileged,34.32,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0164,Executive,Director,High,26.7,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0165,Human Resources,Recruiter,Medium,16.46,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0166,Executive,Chief Officer,Privileged,20.74,Moderate,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Standard,30,60,Monitor
+EMP0167,Executive,Chief Officer,Privileged,22.63,Moderate,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Standard,30,60,Monitor
+EMP0168,Executive,Director,Privileged,19.58,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0169,Executive,Vice President,High,21.23,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0170,Operations,Operations Manager,Medium,33.93,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0171,Sales,Account Executive,Medium,2.88,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0172,Human Resources,HR Manager,High,34.6,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0173,Sales,Account Executive,Medium,25.4,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0174,Legal,Legal Manager,Medium,24.35,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0175,Information Technology,IT Support Analyst,Medium,35.93,High,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,High,7,30,Manager Notification
+EMP0176,Marketing,Marketing Manager,Low,7.26,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0177,Sales,Sales Representative,Medium,8.04,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0178,Marketing,Digital Marketing Analyst,Medium,12.35,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0179,Marketing,Marketing Specialist,Low,19.37,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0180,Marketing,Digital Marketing Analyst,Low,23.79,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0181,Marketing,Digital Marketing Analyst,Low,6.74,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0182,Legal,Compliance Analyst,High,11.75,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0183,Marketing,Marketing Manager,Low,15.37,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0184,Executive,Director,Privileged,16.84,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0185,Marketing,Digital Marketing Analyst,Low,17.89,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0186,Marketing,Digital Marketing Analyst,Medium,10.67,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0187,Information Technology,System Administrator,Medium,16.25,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0188,Finance,Accountant,Medium,21.51,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0189,Human Resources,HR Manager,High,32.91,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0190,Information Technology,System Administrator,Medium,19.72,Low,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Routine,90,90,None
+EMP0191,Finance,Accountant,High,26.7,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0192,Legal,Legal Assistant,High,25.44,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0193,Legal,Compliance Analyst,High,18.6,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0194,Operations,Operations Specialist,Medium,27.72,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0195,Human Resources,Recruiter,Medium,6.98,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0196,Finance,Accountant,Medium,27.19,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0197,Human Resources,HR Manager,Medium,38.25,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0198,Finance,Financial Analyst,Medium,35.61,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0199,Finance,Finance Manager,Medium,34.46,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0200,Sales,Sales Representative,Medium,6.77,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0201,Human Resources,HR Manager,Medium,26.67,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0202,Executive,Chief Officer,Privileged,34.0,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0203,Legal,Legal Assistant,Medium,9.72,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0204,Information Technology,System Administrator,Medium,18.56,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0205,Finance,Accountant,High,26.39,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0206,Marketing,Marketing Manager,Low,9.79,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0207,Human Resources,HR Manager,Medium,24.35,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0208,Human Resources,HR Manager,High,9.23,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0209,Human Resources,HR Manager,Medium,36.88,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0210,Legal,Legal Manager,High,21.44,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0211,Legal,Legal Assistant,High,25.23,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0212,Finance,Accountant,High,45.65,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0213,Human Resources,Recruiter,High,13.86,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0214,Executive,Chief Officer,High,18.49,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0215,Marketing,Marketing Specialist,Medium,30.04,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0216,Executive,Vice President,Privileged,27.58,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0217,Operations,Operations Specialist,Low,16.63,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0218,Human Resources,Recruiter,High,16.49,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0219,Sales,Account Executive,Medium,23.3,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0220,Legal,Legal Assistant,High,16.39,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0221,Legal,Legal Assistant,High,17.33,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0222,Sales,Account Executive,Medium,12.77,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0223,Legal,Compliance Analyst,High,6.28,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0224,Finance,Finance Manager,Medium,20.56,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0225,Human Resources,HR Specialist,High,24.6,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0226,Executive,Chief Officer,High,29.86,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0227,Executive,Chief Officer,Privileged,27.37,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0228,Executive,Director,High,11.02,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0229,Operations,Operations Analyst,Medium,14.88,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0230,Sales,Account Executive,Medium,14.77,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0231,Executive,Chief Officer,Privileged,43.47,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0232,Marketing,Marketing Manager,Medium,17.51,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0233,Legal,Legal Manager,High,19.86,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0234,Operations,Operations Specialist,Medium,11.19,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0235,Sales,Sales Representative,Low,4.32,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0236,Legal,Legal Assistant,Medium,22.35,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0237,Sales,Sales Representative,Medium,20.56,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0238,Operations,Operations Manager,Medium,15.72,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0239,Human Resources,HR Specialist,High,27.96,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0240,Sales,Account Executive,Low,2.63,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0241,Operations,Operations Analyst,Low,12.63,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0242,Operations,Operations Analyst,Low,7.47,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0243,Operations,Operations Manager,Low,10.74,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0244,Executive,Director,High,24.91,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0245,Operations,Operations Specialist,Medium,14.88,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0246,Executive,Vice President,High,16.91,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0247,Finance,Accountant,High,16.18,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0248,Human Resources,HR Specialist,High,4.28,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0249,Executive,Director,High,18.07,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0250,Information Technology,IT Support Analyst,Privileged,41.79,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0251,Operations,Operations Analyst,Low,6.0,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0252,Human Resources,HR Manager,High,7.75,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0253,Sales,Sales Manager,Medium,22.98,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0254,Executive,Vice President,Privileged,25.58,Moderate,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Standard,30,60,Monitor
+EMP0255,Marketing,Digital Marketing Analyst,Low,28.0,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0256,Human Resources,HR Specialist,Medium,35.19,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0257,Operations,Operations Manager,Low,9.16,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0258,Information Technology,IT Support Analyst,Medium,30.14,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0259,Human Resources,HR Specialist,Medium,20.67,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0260,Marketing,Digital Marketing Analyst,Medium,21.82,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0261,Operations,Operations Analyst,Low,20.42,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0262,Operations,Operations Manager,Medium,11.3,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0263,Executive,Director,High,17.44,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0264,Operations,Operations Manager,Low,10.74,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0265,Marketing,Marketing Specialist,Low,4.32,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0266,Information Technology,System Administrator,Medium,39.51,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0267,Human Resources,HR Specialist,Medium,25.51,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0268,Operations,Operations Manager,Medium,13.19,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0269,Executive,Director,Privileged,14.63,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0270,Operations,Operations Manager,Medium,8.98,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0271,Operations,Operations Manager,Medium,17.72,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0272,Executive,Director,High,21.86,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0273,Marketing,Marketing Manager,Medium,20.77,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0274,Operations,Operations Analyst,Low,1.37,Low,Training Weakness,Security Awareness Fundamentals Refresher,Core phishing awareness and safe email behavior,30,Routine,90,90,None
+EMP0275,Sales,Sales Manager,Low,18.0,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0276,Operations,Operations Manager,Low,26.21,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0277,Information Technology,System Administrator,Privileged,51.79,Critical,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Immediate,3,14,Security Team Review
+EMP0278,Executive,Vice President,High,18.28,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0279,Marketing,Marketing Manager,Medium,36.98,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0280,Human Resources,Recruiter,High,4.81,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0281,Marketing,Digital Marketing Analyst,Medium,19.72,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0282,Human Resources,HR Specialist,High,30.49,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0283,Marketing,Marketing Manager,Medium,18.46,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0284,Operations,Operations Manager,Medium,6.98,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0285,Finance,Accountant,Medium,29.3,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0286,Legal,Compliance Analyst,High,16.39,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0287,Human Resources,Recruiter,Medium,12.88,Low,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Routine,90,90,None
+EMP0288,Executive,Vice President,High,9.23,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0289,Sales,Sales Manager,Medium,15.09,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0290,Executive,Chief Officer,Privileged,18.21,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0291,Finance,Financial Analyst,High,12.28,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0292,Information Technology,System Administrator,High,35.65,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0293,Executive,Director,High,18.49,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0294,Sales,Sales Manager,Low,5.26,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0295,Operations,Operations Manager,Low,4.0,Low,Training Weakness,Security Awareness Fundamentals Refresher,Core phishing awareness and safe email behavior,30,Routine,90,90,None
+EMP0296,Marketing,Marketing Specialist,Low,0.0,Low,Training Weakness,Security Awareness Fundamentals Refresher,Core phishing awareness and safe email behavior,30,Routine,90,90,None
+EMP0297,Human Resources,Recruiter,Medium,17.72,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0298,Information Technology,System Administrator,Privileged,28.32,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0299,Operations,Operations Manager,Medium,18.04,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0300,Marketing,Digital Marketing Analyst,Medium,6.25,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0301,Sales,Account Executive,Low,2.11,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0302,Marketing,Marketing Specialist,Low,17.47,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0303,Human Resources,Recruiter,High,23.12,Moderate,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Standard,30,60,Monitor
+EMP0304,Legal,Legal Manager,High,18.07,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0305,Finance,Accountant,High,19.75,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0306,Executive,Director,Privileged,25.26,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0307,Executive,Vice President,Privileged,23.89,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0308,Marketing,Digital Marketing Analyst,Medium,17.72,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0309,Sales,Sales Manager,Low,18.42,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0310,Marketing,Marketing Specialist,Medium,3.51,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0311,Finance,Accountant,High,29.86,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0312,Marketing,Digital Marketing Analyst,Low,9.68,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0313,Executive,Director,High,6.81,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0314,Legal,Legal Assistant,High,23.96,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0315,Human Resources,HR Manager,High,30.7,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0316,Finance,Finance Manager,Medium,13.3,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0317,Marketing,Marketing Manager,Low,1.47,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0318,Human Resources,Recruiter,High,20.39,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0319,Legal,Legal Manager,High,31.44,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0320,Human Resources,Recruiter,High,4.39,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0321,Legal,Legal Manager,High,24.28,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0322,Finance,Finance Manager,Medium,7.82,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0323,Sales,Sales Manager,Medium,23.3,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0324,Sales,Sales Manager,Low,8.95,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0325,Marketing,Marketing Specialist,Low,13.05,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0326,Executive,Director,Privileged,18.32,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0327,Finance,Financial Analyst,High,11.54,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0328,Finance,Accountant,High,21.75,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0329,Legal,Compliance Analyst,Medium,14.14,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0330,Sales,Sales Manager,Medium,7.19,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0331,Information Technology,IT Support Analyst,Medium,30.98,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0332,Human Resources,HR Manager,High,23.54,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0333,Sales,Account Executive,Low,13.68,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0334,Sales,Account Executive,Medium,10.77,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0335,Executive,Vice President,High,11.23,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0336,Executive,Vice President,High,24.28,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0337,Human Resources,Recruiter,High,35.44,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0338,Operations,Operations Manager,Medium,35.72,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0339,Operations,Operations Specialist,Medium,26.14,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0340,Sales,Account Executive,Medium,13.72,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0341,Human Resources,HR Specialist,High,6.49,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0342,Legal,Legal Manager,High,23.86,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0343,Operations,Operations Analyst,Medium,29.09,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0344,Operations,Operations Analyst,Low,7.47,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0345,Executive,Vice President,High,29.96,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0346,Legal,Legal Assistant,Medium,11.72,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0347,Operations,Operations Manager,Low,8.84,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0348,Human Resources,HR Manager,Medium,6.67,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0349,Operations,Operations Specialist,Low,13.47,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0350,Legal,Legal Manager,Medium,10.98,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0351,Human Resources,Recruiter,High,24.39,Moderate,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Standard,30,60,Monitor
+EMP0352,Marketing,Marketing Specialist,Low,10.63,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0353,Information Technology,Security Analyst,High,29.86,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0354,Operations,Operations Analyst,Medium,25.3,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0355,Executive,Vice President,Privileged,18.32,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0356,Human Resources,Recruiter,Medium,22.88,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0357,Information Technology,IT Support Analyst,Privileged,18.95,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0358,Marketing,Marketing Manager,Medium,17.09,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0359,Human Resources,Recruiter,Medium,14.88,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0360,Operations,Operations Manager,Low,17.37,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0361,Executive,Vice President,Privileged,26.63,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0362,Marketing,Marketing Manager,Medium,24.67,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0363,Human Resources,HR Manager,Medium,21.82,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0364,Executive,Director,Privileged,26.11,Moderate,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Standard,30,60,Monitor
+EMP0365,Sales,Sales Manager,Low,4.11,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0366,Executive,Chief Officer,Privileged,18.21,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0367,Marketing,Marketing Specialist,Low,12.63,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0368,Finance,Financial Analyst,High,17.44,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0369,Executive,Director,High,14.39,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0370,Sales,Sales Manager,Low,19.89,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0371,Marketing,Digital Marketing Analyst,Medium,6.67,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0372,Marketing,Marketing Manager,Low,24.63,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0373,Marketing,Marketing Manager,Low,16.63,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0374,Executive,Chief Officer,Privileged,13.16,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0375,Operations,Operations Analyst,Medium,13.82,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0376,Sales,Account Executive,Medium,15.09,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0377,Sales,Account Executive,Low,6.11,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0378,Legal,Legal Manager,High,28.81,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0379,Finance,Accountant,High,10.7,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0380,Sales,Sales Representative,Medium,15.51,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0381,Human Resources,HR Manager,Medium,47.3,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0382,Finance,Financial Analyst,High,30.28,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0383,Sales,Sales Representative,Low,2.84,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0384,Human Resources,HR Manager,Medium,17.72,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0385,Sales,Sales Representative,Medium,11.19,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0386,Information Technology,Security Analyst,Medium,27.93,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0387,Operations,Operations Analyst,Low,19.37,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0388,Operations,Operations Analyst,Low,10.84,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0389,Finance,Financial Analyst,Medium,20.77,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0390,Legal,Legal Assistant,High,13.02,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0391,Finance,Financial Analyst,High,21.75,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0392,Finance,Financial Analyst,High,33.96,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0393,Human Resources,HR Manager,Medium,19.93,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0394,Executive,Vice President,Privileged,17.89,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0395,Human Resources,Recruiter,Medium,33.61,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0396,Finance,Finance Manager,High,15.02,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0397,Executive,Chief Officer,High,24.28,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0398,Finance,Accountant,High,15.23,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0399,Marketing,Marketing Manager,Low,0.74,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0400,Executive,Chief Officer,Privileged,24.74,Moderate,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Standard,30,60,Monitor
+EMP0401,Human Resources,HR Specialist,High,31.23,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0402,Information Technology,IT Support Analyst,Medium,10.14,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0403,Operations,Operations Manager,Medium,7.82,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0404,Marketing,Marketing Manager,Medium,19.19,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0405,Executive,Chief Officer,Privileged,8.11,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0406,Human Resources,HR Manager,Medium,13.61,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0407,Sales,Account Executive,Medium,26.25,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0408,Sales,Account Executive,Medium,20.14,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0409,Executive,Vice President,Privileged,19.68,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0410,Human Resources,Recruiter,High,50.7,Critical,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Immediate,3,14,Security Team Review
+EMP0411,Legal,Legal Manager,High,16.7,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0412,Legal,Legal Assistant,High,19.96,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0413,Human Resources,HR Specialist,Medium,28.77,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0414,Human Resources,Recruiter,Medium,24.14,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0415,Legal,Legal Assistant,Medium,16.67,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0416,Legal,Legal Manager,Medium,30.14,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0417,Marketing,Digital Marketing Analyst,Medium,8.56,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0418,Finance,Accountant,High,23.65,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0419,Legal,Legal Assistant,Medium,23.4,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0420,Information Technology,Security Analyst,High,37.33,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0421,Sales,Sales Representative,Medium,39.09,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0422,Legal,Legal Assistant,High,6.91,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0423,Sales,Account Executive,Low,10.21,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0424,Operations,Operations Analyst,Low,32.42,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0425,Operations,Operations Manager,Medium,30.77,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0426,Legal,Compliance Analyst,Medium,5.82,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0427,Information Technology,IT Support Analyst,Privileged,39.05,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0428,Marketing,Marketing Specialist,Low,5.26,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0429,Finance,Financial Analyst,Medium,14.67,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0430,Marketing,Digital Marketing Analyst,Medium,17.19,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0431,Legal,Legal Assistant,High,11.65,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0432,Operations,Operations Manager,Medium,14.88,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0433,Human Resources,HR Specialist,Medium,33.72,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0434,Information Technology,Security Analyst,Medium,7.51,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0435,Human Resources,Recruiter,High,15.33,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0436,Marketing,Digital Marketing Analyst,Medium,31.4,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0437,Marketing,Digital Marketing Analyst,Low,13.68,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0438,Human Resources,Recruiter,High,16.49,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0439,Human Resources,Recruiter,High,7.12,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0440,Operations,Operations Analyst,Low,11.89,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0441,Marketing,Marketing Manager,Low,0.0,Low,Training Weakness,Security Awareness Fundamentals Refresher,Core phishing awareness and safe email behavior,30,Routine,90,90,None
+EMP0442,Finance,Financial Analyst,High,28.39,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0443,Sales,Sales Representative,Medium,12.88,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0444,Operations,Operations Specialist,Low,14.42,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0445,Finance,Accountant,High,15.86,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0446,Information Technology,IT Support Analyst,High,9.33,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0447,Sales,Sales Manager,Medium,9.09,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0448,Human Resources,Recruiter,Medium,27.4,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0449,Marketing,Marketing Specialist,Medium,18.14,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0450,Human Resources,Recruiter,High,39.23,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0451,Marketing,Marketing Manager,Medium,10.67,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0452,Operations,Operations Analyst,Medium,25.93,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0453,Finance,Accountant,Medium,5.4,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0454,Executive,Chief Officer,Privileged,22.11,Moderate,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Standard,30,60,Monitor
+EMP0455,Human Resources,Recruiter,Medium,18.46,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0456,Sales,Account Executive,Medium,8.25,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0457,Human Resources,Recruiter,High,15.96,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0458,Legal,Legal Assistant,High,3.33,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0459,Information Technology,IT Support Analyst,Privileged,12.95,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0460,Human Resources,HR Manager,Medium,4.46,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0461,Legal,Compliance Analyst,Medium,13.72,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0462,Sales,Sales Representative,Low,15.89,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0463,Operations,Operations Analyst,Low,20.53,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0464,Information Technology,Security Analyst,Medium,17.82,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0465,Information Technology,Security Analyst,High,47.96,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0466,Executive,Chief Officer,Privileged,24.74,Moderate,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Standard,30,60,Monitor
+EMP0467,Legal,Legal Manager,High,24.91,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0468,Information Technology,System Administrator,Medium,19.19,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0469,Executive,Vice President,Privileged,20.53,Moderate,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Standard,30,60,Monitor
+EMP0470,Operations,Operations Manager,Low,7.47,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0471,Legal,Legal Manager,Medium,9.51,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0472,Operations,Operations Specialist,Medium,20.56,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0473,Finance,Financial Analyst,High,31.96,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0474,Operations,Operations Analyst,Low,20.11,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0475,Marketing,Digital Marketing Analyst,Low,18.53,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0476,Executive,Chief Officer,High,26.91,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0477,Legal,Legal Manager,High,12.81,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0478,Information Technology,IT Support Analyst,High,26.81,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0479,Human Resources,Recruiter,Medium,41.51,High,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,High,7,30,Manager Notification
+EMP0480,Information Technology,IT Support Analyst,Medium,23.51,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0481,Executive,Vice President,High,14.07,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0482,Legal,Compliance Analyst,High,28.39,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0483,Marketing,Digital Marketing Analyst,Medium,20.98,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0484,Finance,Finance Manager,High,27.33,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0485,Human Resources,Recruiter,Medium,19.72,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0486,Marketing,Digital Marketing Analyst,Medium,15.09,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0487,Information Technology,System Administrator,Medium,2.98,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0488,Information Technology,System Administrator,High,17.12,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0489,Marketing,Marketing Specialist,Low,1.37,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0490,Operations,Operations Manager,Medium,14.25,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0491,Legal,Legal Assistant,Medium,22.56,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0492,Marketing,Marketing Manager,Medium,29.61,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0493,Finance,Accountant,High,18.07,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0494,Information Technology,IT Support Analyst,High,20.07,Moderate,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Standard,30,60,Monitor
+EMP0495,Executive,Director,High,12.18,Low,Privilege Exposure,Privileged Account Security Awareness,"Administrative accounts, least privilege, credential protection",40,Routine,90,90,None
+EMP0496,Information Technology,IT Support Analyst,Medium,27.19,Moderate,Targeted Attack Failures,Spear Phishing and Social Engineering Defense,"Targeted phishing, executive impersonation, social engineering",40,Standard,30,60,Monitor
+EMP0497,Operations,Operations Analyst,Low,10.84,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0498,Legal,Legal Manager,Medium,13.61,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0499,Marketing,Marketing Specialist,Low,5.89,Low,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Routine,90,90,None
+EMP0500,Information Technology,Security Analyst,Privileged,51.47,Critical,Phishing Failures,Advanced Phishing Recognition,"Phishing indicators, impersonation, urgency, spoofing",30,Immediate,3,14,Security Team Review
